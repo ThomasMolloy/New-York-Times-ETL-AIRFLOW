@@ -22,7 +22,7 @@ default_args = {
 
 @dag(
     default_args=default_args, 
-    schedule_interval=timedelta(days=1), 
+    schedule_interval=timedelta(minutes=10), 
     start_date=days_ago(0),
     catchup=False,
     tags=['ETL'])
@@ -90,12 +90,15 @@ def nyt_bestsellers_ETL():
         loads New York Times Best Seller information into separate
         mySQL database tables.
         '''
-        
+        '''
         host = Variable.get("host")
         db_name = Variable.get("db_name")
         username = Variable.get("username")
         password = Variable.get("password")
+        
         engine = create_engine(f"mysql+mysqlconnector://{username}:{password}@{host}/{db_name}")
+        '''
+        engine = create_engine("postgresql+psycopg2://airflow:airflow@postgres/airflow")
 
         fiction_df = nyt_best_sellers_dfs[0]
         nonfiction_df = nyt_best_sellers_dfs[1]

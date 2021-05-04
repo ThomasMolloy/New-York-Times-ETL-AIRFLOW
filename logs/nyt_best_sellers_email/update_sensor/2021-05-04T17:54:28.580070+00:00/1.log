@@ -1,0 +1,40 @@
+[2021-05-04 18:04:47,544] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: nyt_best_sellers_email.update_sensor 2021-05-04T17:54:28.580070+00:00 [queued]>
+[2021-05-04 18:04:47,643] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: nyt_best_sellers_email.update_sensor 2021-05-04T17:54:28.580070+00:00 [queued]>
+[2021-05-04 18:04:47,644] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-04 18:04:47,646] {taskinstance.py:1069} INFO - Starting attempt 1 of 4
+[2021-05-04 18:04:47,647] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-04 18:04:47,723] {taskinstance.py:1089} INFO - Executing <Task(ExternalTaskSensor): update_sensor> on 2021-05-04T17:54:28.580070+00:00
+[2021-05-04 18:04:47,760] {standard_task_runner.py:52} INFO - Started process 45 to run task
+[2021-05-04 18:04:47,847] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'nyt_best_sellers_email', 'update_sensor', '2021-05-04T17:54:28.580070+00:00', '--job-id', '3', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/NYT_best_sellers_email_dag.py', '--cfg-path', '/tmp/tmpbv1wpr64', '--error-file', '/tmp/tmpvg_v7866']
+[2021-05-04 18:04:47,856] {standard_task_runner.py:77} INFO - Job 3: Subtask update_sensor
+[2021-05-04 18:04:48,058] {logging_mixin.py:104} INFO - Running <TaskInstance: nyt_best_sellers_email.update_sensor 2021-05-04T17:54:28.580070+00:00 [running]> on host 175e6ac31e6c
+[2021-05-04 18:04:48,253] {taskinstance.py:1283} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=thomasmolloyorm@gmail.com
+AIRFLOW_CTX_DAG_OWNER=Thomas
+AIRFLOW_CTX_DAG_ID=nyt_best_sellers_email
+AIRFLOW_CTX_TASK_ID=update_sensor
+AIRFLOW_CTX_EXECUTION_DATE=2021-05-04T17:54:28.580070+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-05-04T17:54:28.580070+00:00
+[2021-05-04 18:04:48,260] {external_task.py:154} INFO - Poking for nyt_bestsellers_etl.load_nyt_best_sellers on 2021-05-04T17:54:28.580070+00:00 ... 
+[2021-05-04 18:05:48,284] {external_task.py:154} INFO - Poking for nyt_bestsellers_etl.load_nyt_best_sellers on 2021-05-04T17:54:28.580070+00:00 ... 
+[2021-05-04 18:06:48,258] {external_task.py:154} INFO - Poking for nyt_bestsellers_etl.load_nyt_best_sellers on 2021-05-04T17:54:28.580070+00:00 ... 
+[2021-05-04 18:07:08,492] {local_task_job.py:77} ERROR - Received SIGTERM. Terminating subprocesses
+[2021-05-04 18:07:08,545] {process_utils.py:100} INFO - Sending Signals.SIGTERM to GPID 45
+[2021-05-04 18:07:08,553] {taskinstance.py:1265} ERROR - Received SIGTERM. Terminating subprocesses.
+[2021-05-04 18:07:08,665] {taskinstance.py:1482} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1138, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/sensors/base.py", line 243, in execute
+    time.sleep(self._get_next_poke_interval(started_at, run_duration, try_number))
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1267, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2021-05-04 18:07:08,681] {taskinstance.py:1532} INFO - Marking task as UP_FOR_RETRY. dag_id=nyt_best_sellers_email, task_id=update_sensor, execution_date=20210504T175428, start_date=20210504T180447, end_date=20210504T180708
+[2021-05-04 18:07:09,068] {process_utils.py:66} INFO - Process psutil.Process(pid=45, status='terminated', exitcode=1, started='18:04:47') (45) terminated with exit code 1

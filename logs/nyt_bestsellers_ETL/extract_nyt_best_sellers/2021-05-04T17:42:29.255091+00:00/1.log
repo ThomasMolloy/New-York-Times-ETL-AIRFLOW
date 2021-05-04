@@ -1,0 +1,23 @@
+[2021-05-04 17:52:59,838] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: nyt_bestsellers_ETL.extract_nyt_best_sellers 2021-05-04T17:42:29.255091+00:00 [queued]>
+[2021-05-04 17:52:59,937] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: nyt_bestsellers_ETL.extract_nyt_best_sellers 2021-05-04T17:42:29.255091+00:00 [queued]>
+[2021-05-04 17:52:59,940] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-04 17:52:59,943] {taskinstance.py:1069} INFO - Starting attempt 1 of 4
+[2021-05-04 17:52:59,951] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-04 17:52:59,998] {taskinstance.py:1089} INFO - Executing <Task(_PythonDecoratedOperator): extract_nyt_best_sellers> on 2021-05-04T17:42:29.255091+00:00
+[2021-05-04 17:53:00,019] {standard_task_runner.py:52} INFO - Started process 45 to run task
+[2021-05-04 17:53:00,112] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'nyt_bestsellers_ETL', 'extract_nyt_best_sellers', '2021-05-04T17:42:29.255091+00:00', '--job-id', '4', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/NYT_best_sellers_ETL_dag.py', '--cfg-path', '/tmp/tmpoj8vpp7y', '--error-file', '/tmp/tmpqlk4xzeq']
+[2021-05-04 17:53:00,120] {standard_task_runner.py:77} INFO - Job 4: Subtask extract_nyt_best_sellers
+[2021-05-04 17:53:00,581] {logging_mixin.py:104} INFO - Running <TaskInstance: nyt_bestsellers_ETL.extract_nyt_best_sellers 2021-05-04T17:42:29.255091+00:00 [running]> on host 10abf406fa73
+[2021-05-04 17:53:00,810] {taskinstance.py:1283} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=thomasmolloyorm@gmail.com
+AIRFLOW_CTX_DAG_OWNER=Thomas
+AIRFLOW_CTX_DAG_ID=nyt_bestsellers_ETL
+AIRFLOW_CTX_TASK_ID=extract_nyt_best_sellers
+AIRFLOW_CTX_EXECUTION_DATE=2021-05-04T17:42:29.255091+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-05-04T17:42:29.255091+00:00
+[2021-05-04 17:53:06,090] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2021-05-04 17:53:06,473] {taskinstance.py:1192} INFO - Marking task as SUCCESS. dag_id=nyt_bestsellers_ETL, task_id=extract_nyt_best_sellers, execution_date=20210504T174229, start_date=20210504T175259, end_date=20210504T175306
+[2021-05-04 17:53:07,110] {taskinstance.py:1246} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-05-04 17:53:07,279] {local_task_job.py:146} INFO - Task exited with return code 0
