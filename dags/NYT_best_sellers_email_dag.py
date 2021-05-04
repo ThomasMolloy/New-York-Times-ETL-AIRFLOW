@@ -6,8 +6,6 @@ from airflow.sensors.external_task_sensor import ExternalTaskSensor
 from datetime import timedelta
 from airflow.utils.dates import days_ago
 
-email_list = ['tjmolloy15@gmail.com']
-
 default_args = {
     'owner': 'Thomas',
     'depends_on_past': False,
@@ -22,15 +20,15 @@ default_args = {
 with DAG( 
     dag_id='nyt_best_sellers_email',
     description='Send email to email list when NYT best sellers is updated',
-    schedule_interval=timedelta(minutes=10),
+    schedule_interval=timedelta(days=1),
     start_date=days_ago(0),
     default_args = default_args,
     catchup=False,
     ) as dag:
 
     sensor=ExternalTaskSensor(
-        task_id='update_sensor',
-        external_dag_id='nyt_bestsellers_etl',
+        task_id='sensor',
+        external_dag_id='nyt_bestsellers_ETL',
         external_task_id='load_nyt_best_sellers'
     )
 
@@ -57,7 +55,7 @@ with DAG(
 
     email = EmailOperator(
                 task_id='send_email',
-                to= email_list,
+                to= ['tjmolloy15@gmail.com', "{{dag_run.conf['email']}}"],
                 subject='New York Times Best Seller List',
                 html_content= 'templates/email_body.html'
             )

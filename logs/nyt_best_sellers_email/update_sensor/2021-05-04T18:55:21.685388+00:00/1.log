@@ -1,0 +1,43 @@
+[2021-05-04 19:05:23,699] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: nyt_best_sellers_email.update_sensor 2021-05-04T18:55:21.685388+00:00 [queued]>
+[2021-05-04 19:05:23,774] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: nyt_best_sellers_email.update_sensor 2021-05-04T18:55:21.685388+00:00 [queued]>
+[2021-05-04 19:05:23,776] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-04 19:05:23,779] {taskinstance.py:1069} INFO - Starting attempt 1 of 4
+[2021-05-04 19:05:23,781] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-04 19:05:23,813] {taskinstance.py:1089} INFO - Executing <Task(ExternalTaskSensor): update_sensor> on 2021-05-04T18:55:21.685388+00:00
+[2021-05-04 19:05:23,841] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'nyt_best_sellers_email', 'update_sensor', '2021-05-04T18:55:21.685388+00:00', '--job-id', '22', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/NYT_best_sellers_email_dag.py', '--cfg-path', '/tmp/tmp8tgz9bnf', '--error-file', '/tmp/tmp2hv3hirz']
+[2021-05-04 19:05:23,848] {standard_task_runner.py:77} INFO - Job 22: Subtask update_sensor
+[2021-05-04 19:05:23,834] {standard_task_runner.py:52} INFO - Started process 59 to run task
+[2021-05-04 19:05:24,024] {logging_mixin.py:104} INFO - Running <TaskInstance: nyt_best_sellers_email.update_sensor 2021-05-04T18:55:21.685388+00:00 [running]> on host 175e6ac31e6c
+[2021-05-04 19:05:24,144] {taskinstance.py:1283} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=thomasmolloyorm@gmail.com
+AIRFLOW_CTX_DAG_OWNER=Thomas
+AIRFLOW_CTX_DAG_ID=nyt_best_sellers_email
+AIRFLOW_CTX_TASK_ID=update_sensor
+AIRFLOW_CTX_EXECUTION_DATE=2021-05-04T18:55:21.685388+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-05-04T18:55:21.685388+00:00
+[2021-05-04 19:05:24,150] {external_task.py:154} INFO - Poking for nyt_bestsellers_etl.load_nyt_best_sellers on 2021-05-04T18:55:21.685388+00:00 ... 
+[2021-05-04 19:06:24,169] {external_task.py:154} INFO - Poking for nyt_bestsellers_etl.load_nyt_best_sellers on 2021-05-04T18:55:21.685388+00:00 ... 
+[2021-05-04 19:07:24,192] {external_task.py:154} INFO - Poking for nyt_bestsellers_etl.load_nyt_best_sellers on 2021-05-04T18:55:21.685388+00:00 ... 
+[2021-05-04 19:08:24,259] {external_task.py:154} INFO - Poking for nyt_bestsellers_etl.load_nyt_best_sellers on 2021-05-04T18:55:21.685388+00:00 ... 
+[2021-05-04 19:09:24,350] {external_task.py:154} INFO - Poking for nyt_bestsellers_etl.load_nyt_best_sellers on 2021-05-04T18:55:21.685388+00:00 ... 
+[2021-05-04 19:10:24,372] {external_task.py:154} INFO - Poking for nyt_bestsellers_etl.load_nyt_best_sellers on 2021-05-04T18:55:21.685388+00:00 ... 
+[2021-05-04 19:10:37,193] {local_task_job.py:77} ERROR - Received SIGTERM. Terminating subprocesses
+[2021-05-04 19:10:37,399] {process_utils.py:100} INFO - Sending Signals.SIGTERM to GPID 59
+[2021-05-04 19:10:37,421] {taskinstance.py:1265} ERROR - Received SIGTERM. Terminating subprocesses.
+[2021-05-04 19:10:40,399] {taskinstance.py:1482} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1138, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/sensors/base.py", line 243, in execute
+    time.sleep(self._get_next_poke_interval(started_at, run_duration, try_number))
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1267, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2021-05-04 19:10:40,812] {taskinstance.py:1532} INFO - Marking task as UP_FOR_RETRY. dag_id=nyt_best_sellers_email, task_id=update_sensor, execution_date=20210504T185521, start_date=20210504T190523, end_date=20210504T191040
+[2021-05-04 19:10:41,525] {process_utils.py:66} INFO - Process psutil.Process(pid=59, status='terminated', exitcode=1, started='19:05:23') (59) terminated with exit code 1

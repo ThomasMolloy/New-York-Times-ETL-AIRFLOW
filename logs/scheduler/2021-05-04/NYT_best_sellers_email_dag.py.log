@@ -1249,3 +1249,1011 @@
 [2021-05-04 18:07:03,953] {logging_mixin.py:104} INFO - [2021-05-04 18:07:03,952] {dag.py:1824} INFO - Sync 1 DAGs
 [2021-05-04 18:07:04,015] {logging_mixin.py:104} INFO - [2021-05-04 18:07:04,014] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:04:28.580070+00:00
 [2021-05-04 18:07:04,038] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.389 seconds
+[2021-05-04 18:29:53,144] {scheduler_job.py:182} INFO - Started process (PID=27) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:29:53,168] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:29:53,197] {logging_mixin.py:104} INFO - [2021-05-04 18:29:53,197] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:29:53,527] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:29:53,796] {logging_mixin.py:104} INFO - [2021-05-04 18:29:53,795] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:29:54,099] {logging_mixin.py:104} INFO - [2021-05-04 18:29:54,099] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:19:54.099372+00:00
+[2021-05-04 18:29:54,231] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 1.149 seconds
+[2021-05-04 18:30:24,687] {scheduler_job.py:182} INFO - Started process (PID=54) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:30:24,692] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:30:24,697] {logging_mixin.py:104} INFO - [2021-05-04 18:30:24,697] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:30:24,794] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:30:24,891] {logging_mixin.py:104} INFO - [2021-05-04 18:30:24,891] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:30:24,949] {logging_mixin.py:104} INFO - [2021-05-04 18:30:24,948] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:20:24.948785+00:00
+[2021-05-04 18:30:24,975] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.302 seconds
+[2021-05-04 18:30:55,940] {scheduler_job.py:182} INFO - Started process (PID=82) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:30:55,949] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:30:55,959] {logging_mixin.py:104} INFO - [2021-05-04 18:30:55,958] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:30:56,206] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:30:56,361] {logging_mixin.py:104} INFO - [2021-05-04 18:30:56,360] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:30:56,441] {logging_mixin.py:104} INFO - [2021-05-04 18:30:56,441] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:20:56.441578+00:00
+[2021-05-04 18:30:56,479] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.551 seconds
+[2021-05-04 18:31:27,275] {scheduler_job.py:182} INFO - Started process (PID=110) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:31:27,281] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:31:27,287] {logging_mixin.py:104} INFO - [2021-05-04 18:31:27,286] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:31:27,368] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:31:27,442] {logging_mixin.py:104} INFO - [2021-05-04 18:31:27,442] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:31:27,562] {logging_mixin.py:104} INFO - [2021-05-04 18:31:27,561] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:21:27.561565+00:00
+[2021-05-04 18:31:27,623] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.365 seconds
+[2021-05-04 18:31:58,165] {scheduler_job.py:182} INFO - Started process (PID=138) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:31:58,195] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:31:58,212] {logging_mixin.py:104} INFO - [2021-05-04 18:31:58,212] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:31:58,394] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:31:58,495] {logging_mixin.py:104} INFO - [2021-05-04 18:31:58,495] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:31:58,571] {logging_mixin.py:104} INFO - [2021-05-04 18:31:58,571] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:21:58.571653+00:00
+[2021-05-04 18:31:58,620] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.473 seconds
+[2021-05-04 18:32:29,484] {scheduler_job.py:182} INFO - Started process (PID=166) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:32:29,497] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:32:29,506] {logging_mixin.py:104} INFO - [2021-05-04 18:32:29,505] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:32:29,609] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:32:29,696] {logging_mixin.py:104} INFO - [2021-05-04 18:32:29,696] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:32:29,847] {logging_mixin.py:104} INFO - [2021-05-04 18:32:29,847] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:22:29.847187+00:00
+[2021-05-04 18:32:29,912] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.459 seconds
+[2021-05-04 18:33:00,151] {scheduler_job.py:182} INFO - Started process (PID=194) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:33:00,163] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:33:00,175] {logging_mixin.py:104} INFO - [2021-05-04 18:33:00,174] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:33:00,302] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:33:00,387] {logging_mixin.py:104} INFO - [2021-05-04 18:33:00,387] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:33:00,435] {logging_mixin.py:104} INFO - [2021-05-04 18:33:00,435] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:23:00.435447+00:00
+[2021-05-04 18:33:00,463] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.361 seconds
+[2021-05-04 18:33:30,774] {scheduler_job.py:182} INFO - Started process (PID=222) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:33:30,779] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:33:30,784] {logging_mixin.py:104} INFO - [2021-05-04 18:33:30,783] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:33:30,929] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:33:31,078] {logging_mixin.py:104} INFO - [2021-05-04 18:33:31,078] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:33:31,161] {logging_mixin.py:104} INFO - [2021-05-04 18:33:31,161] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:23:31.160469+00:00
+[2021-05-04 18:33:31,192] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.425 seconds
+[2021-05-04 18:34:01,627] {scheduler_job.py:182} INFO - Started process (PID=250) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:34:01,640] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:34:01,643] {logging_mixin.py:104} INFO - [2021-05-04 18:34:01,643] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:34:01,729] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:34:01,781] {logging_mixin.py:104} INFO - [2021-05-04 18:34:01,780] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:34:01,835] {logging_mixin.py:104} INFO - [2021-05-04 18:34:01,835] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:24:01.833360+00:00
+[2021-05-04 18:34:01,871] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.251 seconds
+[2021-05-04 18:34:32,357] {scheduler_job.py:182} INFO - Started process (PID=278) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:34:32,368] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:34:32,380] {logging_mixin.py:104} INFO - [2021-05-04 18:34:32,379] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:34:32,471] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:34:32,522] {logging_mixin.py:104} INFO - [2021-05-04 18:34:32,522] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:34:32,562] {logging_mixin.py:104} INFO - [2021-05-04 18:34:32,561] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:24:32.561480+00:00
+[2021-05-04 18:34:32,599] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.251 seconds
+[2021-05-04 18:35:02,973] {scheduler_job.py:182} INFO - Started process (PID=306) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:35:02,976] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:35:02,985] {logging_mixin.py:104} INFO - [2021-05-04 18:35:02,985] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:35:03,041] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:35:03,090] {logging_mixin.py:104} INFO - [2021-05-04 18:35:03,090] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:35:03,139] {logging_mixin.py:104} INFO - [2021-05-04 18:35:03,138] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:25:03.138675+00:00
+[2021-05-04 18:35:03,157] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.190 seconds
+[2021-05-04 18:35:33,945] {scheduler_job.py:182} INFO - Started process (PID=334) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:35:33,949] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:35:33,952] {logging_mixin.py:104} INFO - [2021-05-04 18:35:33,952] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:35:34,034] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:35:34,100] {logging_mixin.py:104} INFO - [2021-05-04 18:35:34,100] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:35:34,138] {logging_mixin.py:104} INFO - [2021-05-04 18:35:34,138] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:25:34.138519+00:00
+[2021-05-04 18:35:34,159] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.219 seconds
+[2021-05-04 18:36:05,037] {scheduler_job.py:182} INFO - Started process (PID=362) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:36:05,043] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:36:05,050] {logging_mixin.py:104} INFO - [2021-05-04 18:36:05,050] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:36:05,157] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:36:05,249] {logging_mixin.py:104} INFO - [2021-05-04 18:36:05,248] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:36:05,303] {logging_mixin.py:104} INFO - [2021-05-04 18:36:05,303] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:26:05.303098+00:00
+[2021-05-04 18:36:05,394] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.378 seconds
+[2021-05-04 18:36:35,926] {scheduler_job.py:182} INFO - Started process (PID=390) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:36:35,932] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:36:35,945] {logging_mixin.py:104} INFO - [2021-05-04 18:36:35,944] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:36:36,155] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:36:36,316] {logging_mixin.py:104} INFO - [2021-05-04 18:36:36,315] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:36:36,421] {logging_mixin.py:104} INFO - [2021-05-04 18:36:36,421] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:26:36.421094+00:00
+[2021-05-04 18:36:36,451] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.543 seconds
+[2021-05-04 18:37:06,953] {scheduler_job.py:182} INFO - Started process (PID=419) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:37:06,974] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:37:06,985] {logging_mixin.py:104} INFO - [2021-05-04 18:37:06,984] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:37:07,095] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:37:07,148] {logging_mixin.py:104} INFO - [2021-05-04 18:37:07,148] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:37:07,194] {logging_mixin.py:104} INFO - [2021-05-04 18:37:07,194] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:27:07.194303+00:00
+[2021-05-04 18:37:07,218] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.270 seconds
+[2021-05-04 18:37:37,598] {scheduler_job.py:182} INFO - Started process (PID=447) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:37:37,604] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:37:37,607] {logging_mixin.py:104} INFO - [2021-05-04 18:37:37,606] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:37:37,753] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:37:37,817] {logging_mixin.py:104} INFO - [2021-05-04 18:37:37,817] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:37:37,879] {logging_mixin.py:104} INFO - [2021-05-04 18:37:37,879] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:27:37.878906+00:00
+[2021-05-04 18:37:37,896] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.329 seconds
+[2021-05-04 18:38:08,242] {scheduler_job.py:182} INFO - Started process (PID=475) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:38:08,259] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:38:08,264] {logging_mixin.py:104} INFO - [2021-05-04 18:38:08,263] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:38:08,453] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:38:08,605] {logging_mixin.py:104} INFO - [2021-05-04 18:38:08,604] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:38:08,723] {logging_mixin.py:104} INFO - [2021-05-04 18:38:08,722] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:28:08.722439+00:00
+[2021-05-04 18:38:08,755] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.554 seconds
+[2021-05-04 18:38:39,621] {scheduler_job.py:182} INFO - Started process (PID=503) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:38:39,631] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:38:39,637] {logging_mixin.py:104} INFO - [2021-05-04 18:38:39,636] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:38:39,730] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:38:39,800] {logging_mixin.py:104} INFO - [2021-05-04 18:38:39,799] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:38:39,886] {logging_mixin.py:104} INFO - [2021-05-04 18:38:39,886] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:28:39.886060+00:00
+[2021-05-04 18:38:39,954] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.357 seconds
+[2021-05-04 18:39:10,596] {scheduler_job.py:182} INFO - Started process (PID=531) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:39:10,613] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:39:10,618] {logging_mixin.py:104} INFO - [2021-05-04 18:39:10,617] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:39:10,886] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:39:10,964] {logging_mixin.py:104} INFO - [2021-05-04 18:39:10,963] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:39:11,048] {logging_mixin.py:104} INFO - [2021-05-04 18:39:11,047] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:29:11.047259+00:00
+[2021-05-04 18:39:11,094] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.542 seconds
+[2021-05-04 18:39:41,546] {scheduler_job.py:182} INFO - Started process (PID=559) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:39:41,561] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:39:41,564] {logging_mixin.py:104} INFO - [2021-05-04 18:39:41,564] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:39:41,718] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:39:41,906] {logging_mixin.py:104} INFO - [2021-05-04 18:39:41,905] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:39:41,972] {logging_mixin.py:104} INFO - [2021-05-04 18:39:41,972] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:39:11.047259+00:00
+[2021-05-04 18:39:42,011] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.477 seconds
+[2021-05-04 18:40:12,268] {scheduler_job.py:182} INFO - Started process (PID=587) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:40:12,287] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:40:12,295] {logging_mixin.py:104} INFO - [2021-05-04 18:40:12,294] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:40:12,366] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:40:12,404] {logging_mixin.py:104} INFO - [2021-05-04 18:40:12,404] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:40:12,429] {logging_mixin.py:104} INFO - [2021-05-04 18:40:12,429] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:39:11.047259+00:00
+[2021-05-04 18:40:12,446] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.187 seconds
+[2021-05-04 18:40:46,086] {scheduler_job.py:182} INFO - Started process (PID=615) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:40:46,307] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:40:46,328] {logging_mixin.py:104} INFO - [2021-05-04 18:40:46,327] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:40:47,305] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:40:47,537] {logging_mixin.py:104} INFO - [2021-05-04 18:40:47,536] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:40:47,688] {logging_mixin.py:104} INFO - [2021-05-04 18:40:47,688] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:39:11.047259+00:00
+[2021-05-04 18:40:47,724] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 1.918 seconds
+[2021-05-04 18:41:17,860] {scheduler_job.py:182} INFO - Started process (PID=642) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:41:17,869] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:41:17,874] {logging_mixin.py:104} INFO - [2021-05-04 18:41:17,873] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:41:17,938] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:41:17,994] {logging_mixin.py:104} INFO - [2021-05-04 18:41:17,993] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:41:18,037] {logging_mixin.py:104} INFO - [2021-05-04 18:41:18,037] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:39:11.047259+00:00
+[2021-05-04 18:41:18,072] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.226 seconds
+[2021-05-04 18:41:48,402] {scheduler_job.py:182} INFO - Started process (PID=670) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:41:48,410] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:41:48,419] {logging_mixin.py:104} INFO - [2021-05-04 18:41:48,418] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:41:48,538] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:41:48,641] {logging_mixin.py:104} INFO - [2021-05-04 18:41:48,640] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:41:48,685] {logging_mixin.py:104} INFO - [2021-05-04 18:41:48,684] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:39:11.047259+00:00
+[2021-05-04 18:41:48,723] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.369 seconds
+[2021-05-04 18:42:19,560] {scheduler_job.py:182} INFO - Started process (PID=698) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:42:19,572] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:42:19,580] {logging_mixin.py:104} INFO - [2021-05-04 18:42:19,579] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:42:19,664] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:42:19,707] {logging_mixin.py:104} INFO - [2021-05-04 18:42:19,707] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:42:19,740] {logging_mixin.py:104} INFO - [2021-05-04 18:42:19,739] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:39:11.047259+00:00
+[2021-05-04 18:42:19,765] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.218 seconds
+[2021-05-04 18:42:50,007] {scheduler_job.py:182} INFO - Started process (PID=726) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:42:50,018] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:42:50,024] {logging_mixin.py:104} INFO - [2021-05-04 18:42:50,023] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:42:50,094] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:42:50,148] {logging_mixin.py:104} INFO - [2021-05-04 18:42:50,148] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:42:50,195] {logging_mixin.py:104} INFO - [2021-05-04 18:42:50,195] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:39:11.047259+00:00
+[2021-05-04 18:42:50,229] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.234 seconds
+[2021-05-04 18:43:20,371] {scheduler_job.py:182} INFO - Started process (PID=754) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:43:20,386] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:43:20,390] {logging_mixin.py:104} INFO - [2021-05-04 18:43:20,390] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:43:20,519] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:43:20,588] {logging_mixin.py:104} INFO - [2021-05-04 18:43:20,587] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:43:20,635] {logging_mixin.py:104} INFO - [2021-05-04 18:43:20,635] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:39:11.047259+00:00
+[2021-05-04 18:43:20,672] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.311 seconds
+[2021-05-04 18:43:50,818] {scheduler_job.py:182} INFO - Started process (PID=782) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:43:50,828] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:43:50,835] {logging_mixin.py:104} INFO - [2021-05-04 18:43:50,834] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:43:50,955] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:43:51,027] {logging_mixin.py:104} INFO - [2021-05-04 18:43:51,026] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:43:51,059] {logging_mixin.py:104} INFO - [2021-05-04 18:43:51,059] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:39:11.047259+00:00
+[2021-05-04 18:43:51,096] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.290 seconds
+[2021-05-04 18:44:21,936] {scheduler_job.py:182} INFO - Started process (PID=810) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:44:22,010] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:44:22,020] {logging_mixin.py:104} INFO - [2021-05-04 18:44:22,013] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:44:22,525] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:44:22,599] {logging_mixin.py:104} INFO - [2021-05-04 18:44:22,599] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:44:22,671] {logging_mixin.py:104} INFO - [2021-05-04 18:44:22,670] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:39:11.047259+00:00
+[2021-05-04 18:44:22,700] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.828 seconds
+[2021-05-04 18:44:53,332] {scheduler_job.py:182} INFO - Started process (PID=838) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:44:53,353] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:44:53,370] {logging_mixin.py:104} INFO - [2021-05-04 18:44:53,369] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:44:53,734] {logging_mixin.py:104} INFO - [2021-05-04 18:44:53,700] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/NYT_best_sellers_email_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/NYT_best_sellers_email_dag.py", line 58, in <module>
+    to= ['tjmolloy15@gmail.com', {{dag_run.conf['email']}}],
+NameError: name 'dag_run' is not defined
+[2021-05-04 18:44:53,765] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:44:54,338] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 1.033 seconds
+[2021-05-04 18:45:25,427] {scheduler_job.py:182} INFO - Started process (PID=866) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:45:25,450] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:45:25,463] {logging_mixin.py:104} INFO - [2021-05-04 18:45:25,462] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:45:25,862] {logging_mixin.py:104} INFO - [2021-05-04 18:45:25,841] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/NYT_best_sellers_email_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/NYT_best_sellers_email_dag.py", line 58, in <module>
+    to= ['tjmolloy15@gmail.com', {{dag_run.conf['email']}}],
+NameError: name 'dag_run' is not defined
+[2021-05-04 18:45:25,870] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:45:25,981] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.586 seconds
+[2021-05-04 18:45:56,478] {scheduler_job.py:182} INFO - Started process (PID=894) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:45:56,484] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:45:56,508] {logging_mixin.py:104} INFO - [2021-05-04 18:45:56,507] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:45:56,716] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:45:56,882] {logging_mixin.py:104} INFO - [2021-05-04 18:45:56,881] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:45:56,933] {logging_mixin.py:104} INFO - [2021-05-04 18:45:56,933] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:39:11.047259+00:00
+[2021-05-04 18:45:56,970] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.520 seconds
+[2021-05-04 18:46:27,383] {scheduler_job.py:182} INFO - Started process (PID=922) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:46:27,403] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:46:27,417] {logging_mixin.py:104} INFO - [2021-05-04 18:46:27,416] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:46:27,655] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:46:27,904] {logging_mixin.py:104} INFO - [2021-05-04 18:46:27,901] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:46:28,015] {logging_mixin.py:104} INFO - [2021-05-04 18:46:28,015] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:39:11.047259+00:00
+[2021-05-04 18:46:28,037] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.699 seconds
+[2021-05-04 18:46:58,781] {scheduler_job.py:182} INFO - Started process (PID=950) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:46:58,795] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:46:58,802] {logging_mixin.py:104} INFO - [2021-05-04 18:46:58,802] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:46:58,912] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:46:59,031] {logging_mixin.py:104} INFO - [2021-05-04 18:46:59,031] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:46:59,126] {logging_mixin.py:104} INFO - [2021-05-04 18:46:59,126] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:39:11.047259+00:00
+[2021-05-04 18:46:59,177] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.408 seconds
+[2021-05-04 18:47:29,783] {scheduler_job.py:182} INFO - Started process (PID=978) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:47:29,843] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:47:29,884] {logging_mixin.py:104} INFO - [2021-05-04 18:47:29,869] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:47:31,011] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:47:31,697] {logging_mixin.py:104} INFO - [2021-05-04 18:47:31,697] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:47:31,986] {logging_mixin.py:104} INFO - [2021-05-04 18:47:31,986] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:39:11.047259+00:00
+[2021-05-04 18:47:32,099] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 2.429 seconds
+[2021-05-04 18:48:02,515] {scheduler_job.py:182} INFO - Started process (PID=1006) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:48:02,522] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:48:02,539] {logging_mixin.py:104} INFO - [2021-05-04 18:48:02,539] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:48:02,802] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:48:02,918] {logging_mixin.py:104} INFO - [2021-05-04 18:48:02,917] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:48:02,986] {logging_mixin.py:104} INFO - [2021-05-04 18:48:02,985] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:39:11.047259+00:00
+[2021-05-04 18:48:03,022] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.532 seconds
+[2021-05-04 18:48:33,308] {scheduler_job.py:182} INFO - Started process (PID=1034) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:48:33,312] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:48:33,315] {logging_mixin.py:104} INFO - [2021-05-04 18:48:33,315] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:48:33,405] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:48:33,506] {logging_mixin.py:104} INFO - [2021-05-04 18:48:33,506] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:48:33,571] {logging_mixin.py:104} INFO - [2021-05-04 18:48:33,570] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:39:11.047259+00:00
+[2021-05-04 18:48:33,601] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.300 seconds
+[2021-05-04 18:49:03,910] {scheduler_job.py:182} INFO - Started process (PID=1062) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:49:03,916] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:49:03,919] {logging_mixin.py:104} INFO - [2021-05-04 18:49:03,919] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:49:04,014] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:49:04,114] {logging_mixin.py:104} INFO - [2021-05-04 18:49:04,114] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:49:04,265] {logging_mixin.py:104} INFO - [2021-05-04 18:49:04,264] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:39:11.047259+00:00
+[2021-05-04 18:49:04,418] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.513 seconds
+[2021-05-04 18:49:34,755] {scheduler_job.py:182} INFO - Started process (PID=1089) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:49:34,771] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:49:34,778] {logging_mixin.py:104} INFO - [2021-05-04 18:49:34,777] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:49:35,108] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:49:35,192] {logging_mixin.py:104} INFO - [2021-05-04 18:49:35,192] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:49:35,272] {logging_mixin.py:104} INFO - [2021-05-04 18:49:35,271] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:39:35.271633+00:00
+[2021-05-04 18:49:35,314] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.571 seconds
+[2021-05-04 18:50:07,118] {scheduler_job.py:182} INFO - Started process (PID=1118) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:50:07,295] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:50:07,372] {logging_mixin.py:104} INFO - [2021-05-04 18:50:07,371] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:50:07,856] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:50:08,128] {logging_mixin.py:104} INFO - [2021-05-04 18:50:08,128] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:50:08,240] {logging_mixin.py:104} INFO - [2021-05-04 18:50:08,240] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:40:08.239928+00:00
+[2021-05-04 18:50:08,280] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 1.296 seconds
+[2021-05-04 18:50:38,744] {scheduler_job.py:182} INFO - Started process (PID=1146) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:50:38,760] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:50:38,782] {logging_mixin.py:104} INFO - [2021-05-04 18:50:38,781] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:50:38,957] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:50:39,061] {logging_mixin.py:104} INFO - [2021-05-04 18:50:39,061] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:50:39,165] {logging_mixin.py:104} INFO - [2021-05-04 18:50:39,165] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:50:08.239928+00:00
+[2021-05-04 18:50:39,252] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.514 seconds
+[2021-05-04 18:51:10,200] {scheduler_job.py:182} INFO - Started process (PID=1174) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:51:10,219] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:51:10,237] {logging_mixin.py:104} INFO - [2021-05-04 18:51:10,237] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:51:10,419] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:51:10,604] {logging_mixin.py:104} INFO - [2021-05-04 18:51:10,604] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:51:10,700] {logging_mixin.py:104} INFO - [2021-05-04 18:51:10,700] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:50:08.239928+00:00
+[2021-05-04 18:51:10,756] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.580 seconds
+[2021-05-04 18:52:39,814] {scheduler_job.py:182} INFO - Started process (PID=33) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:52:39,832] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:52:39,841] {logging_mixin.py:104} INFO - [2021-05-04 18:52:39,841] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:52:40,095] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:52:40,350] {logging_mixin.py:104} INFO - [2021-05-04 18:52:40,349] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:52:40,577] {logging_mixin.py:104} INFO - [2021-05-04 18:52:40,577] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:50:08.239928+00:00
+[2021-05-04 18:52:40,668] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.892 seconds
+[2021-05-04 18:53:15,101] {scheduler_job.py:182} INFO - Started process (PID=62) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:53:15,114] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:53:15,128] {logging_mixin.py:104} INFO - [2021-05-04 18:53:15,127] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:53:15,669] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:53:15,959] {logging_mixin.py:104} INFO - [2021-05-04 18:53:15,958] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:53:16,166] {logging_mixin.py:104} INFO - [2021-05-04 18:53:16,166] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:50:08.239928+00:00
+[2021-05-04 18:53:16,207] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 1.149 seconds
+[2021-05-04 18:53:46,434] {scheduler_job.py:182} INFO - Started process (PID=90) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:53:46,451] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:53:46,466] {logging_mixin.py:104} INFO - [2021-05-04 18:53:46,466] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:53:46,617] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:53:46,678] {logging_mixin.py:104} INFO - [2021-05-04 18:53:46,677] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:53:46,718] {logging_mixin.py:104} INFO - [2021-05-04 18:53:46,718] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:50:08.239928+00:00
+[2021-05-04 18:53:46,743] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.334 seconds
+[2021-05-04 18:54:16,931] {scheduler_job.py:182} INFO - Started process (PID=118) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:54:16,940] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:54:16,951] {logging_mixin.py:104} INFO - [2021-05-04 18:54:16,951] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:54:17,135] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:54:17,424] {logging_mixin.py:104} INFO - [2021-05-04 18:54:17,423] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:54:17,491] {logging_mixin.py:104} INFO - [2021-05-04 18:54:17,491] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:50:08.239928+00:00
+[2021-05-04 18:54:17,576] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.663 seconds
+[2021-05-04 18:54:48,260] {scheduler_job.py:182} INFO - Started process (PID=146) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:54:48,265] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:54:48,275] {logging_mixin.py:104} INFO - [2021-05-04 18:54:48,275] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:54:48,468] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:54:48,627] {logging_mixin.py:104} INFO - [2021-05-04 18:54:48,626] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:54:48,774] {logging_mixin.py:104} INFO - [2021-05-04 18:54:48,773] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:50:08.239928+00:00
+[2021-05-04 18:54:48,888] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.697 seconds
+[2021-05-04 18:55:20,984] {scheduler_job.py:182} INFO - Started process (PID=174) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:55:21,006] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:55:21,009] {logging_mixin.py:104} INFO - [2021-05-04 18:55:21,009] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:55:21,275] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:55:21,537] {logging_mixin.py:104} INFO - [2021-05-04 18:55:21,536] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:55:21,691] {logging_mixin.py:104} INFO - [2021-05-04 18:55:21,688] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:45:21.685388+00:00
+[2021-05-04 18:55:21,795] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.834 seconds
+[2021-05-04 18:55:52,475] {scheduler_job.py:182} INFO - Started process (PID=202) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:55:52,482] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:55:52,486] {logging_mixin.py:104} INFO - [2021-05-04 18:55:52,486] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:55:52,605] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:55:52,738] {logging_mixin.py:104} INFO - [2021-05-04 18:55:52,737] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:55:52,813] {logging_mixin.py:104} INFO - [2021-05-04 18:55:52,813] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:55:21.685388+00:00
+[2021-05-04 18:55:52,865] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.406 seconds
+[2021-05-04 18:56:23,402] {scheduler_job.py:182} INFO - Started process (PID=230) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:56:23,434] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:56:23,440] {logging_mixin.py:104} INFO - [2021-05-04 18:56:23,439] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:56:23,567] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:56:23,727] {logging_mixin.py:104} INFO - [2021-05-04 18:56:23,727] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:56:23,837] {logging_mixin.py:104} INFO - [2021-05-04 18:56:23,837] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:55:21.685388+00:00
+[2021-05-04 18:56:23,918] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.530 seconds
+[2021-05-04 18:56:54,475] {scheduler_job.py:182} INFO - Started process (PID=258) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:56:54,490] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:56:54,498] {logging_mixin.py:104} INFO - [2021-05-04 18:56:54,498] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:56:54,627] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:56:54,797] {logging_mixin.py:104} INFO - [2021-05-04 18:56:54,797] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:56:54,895] {logging_mixin.py:104} INFO - [2021-05-04 18:56:54,895] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:55:21.685388+00:00
+[2021-05-04 18:56:54,927] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.464 seconds
+[2021-05-04 18:57:25,165] {scheduler_job.py:182} INFO - Started process (PID=286) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:57:25,184] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:57:25,193] {logging_mixin.py:104} INFO - [2021-05-04 18:57:25,191] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:57:25,347] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:57:25,438] {logging_mixin.py:104} INFO - [2021-05-04 18:57:25,438] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:57:25,495] {logging_mixin.py:104} INFO - [2021-05-04 18:57:25,495] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:55:21.685388+00:00
+[2021-05-04 18:57:25,551] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.403 seconds
+[2021-05-04 18:57:55,727] {scheduler_job.py:182} INFO - Started process (PID=314) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:57:55,736] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:57:55,741] {logging_mixin.py:104} INFO - [2021-05-04 18:57:55,741] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:57:55,892] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:57:56,015] {logging_mixin.py:104} INFO - [2021-05-04 18:57:56,012] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:57:56,113] {logging_mixin.py:104} INFO - [2021-05-04 18:57:56,112] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:55:21.685388+00:00
+[2021-05-04 18:57:56,161] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.442 seconds
+[2021-05-04 18:58:27,232] {scheduler_job.py:182} INFO - Started process (PID=341) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:58:27,244] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:58:27,246] {logging_mixin.py:104} INFO - [2021-05-04 18:58:27,246] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:58:27,435] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:58:27,580] {logging_mixin.py:104} INFO - [2021-05-04 18:58:27,569] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:58:27,674] {logging_mixin.py:104} INFO - [2021-05-04 18:58:27,674] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:55:21.685388+00:00
+[2021-05-04 18:58:27,703] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.490 seconds
+[2021-05-04 18:59:00,821] {scheduler_job.py:182} INFO - Started process (PID=370) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:59:00,828] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:59:00,833] {logging_mixin.py:104} INFO - [2021-05-04 18:59:00,832] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:59:01,039] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:59:01,107] {logging_mixin.py:104} INFO - [2021-05-04 18:59:01,107] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:59:01,191] {logging_mixin.py:104} INFO - [2021-05-04 18:59:01,191] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:55:21.685388+00:00
+[2021-05-04 18:59:01,237] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.432 seconds
+[2021-05-04 18:59:31,561] {scheduler_job.py:182} INFO - Started process (PID=397) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:59:31,573] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 18:59:31,575] {logging_mixin.py:104} INFO - [2021-05-04 18:59:31,575] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:59:31,625] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 18:59:31,665] {logging_mixin.py:104} INFO - [2021-05-04 18:59:31,665] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 18:59:31,694] {logging_mixin.py:104} INFO - [2021-05-04 18:59:31,694] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:55:21.685388+00:00
+[2021-05-04 18:59:31,714] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.163 seconds
+[2021-05-04 19:00:02,901] {scheduler_job.py:182} INFO - Started process (PID=425) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:00:02,909] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:00:02,914] {logging_mixin.py:104} INFO - [2021-05-04 19:00:02,914] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:00:03,010] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:00:03,075] {logging_mixin.py:104} INFO - [2021-05-04 19:00:03,075] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:00:03,113] {logging_mixin.py:104} INFO - [2021-05-04 19:00:03,113] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:55:21.685388+00:00
+[2021-05-04 19:00:03,138] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.249 seconds
+[2021-05-04 19:00:43,832] {scheduler_job.py:182} INFO - Started process (PID=458) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:00:43,840] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:00:43,843] {logging_mixin.py:104} INFO - [2021-05-04 19:00:43,843] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:00:44,041] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:00:44,571] {logging_mixin.py:104} INFO - [2021-05-04 19:00:44,571] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:00:44,739] {logging_mixin.py:104} INFO - [2021-05-04 19:00:44,729] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:55:21.685388+00:00
+[2021-05-04 19:00:44,802] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.983 seconds
+[2021-05-04 19:01:15,371] {scheduler_job.py:182} INFO - Started process (PID=485) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:01:15,502] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:01:15,623] {logging_mixin.py:104} INFO - [2021-05-04 19:01:15,623] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:01:16,116] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:01:16,440] {logging_mixin.py:104} INFO - [2021-05-04 19:01:16,439] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:01:16,598] {logging_mixin.py:104} INFO - [2021-05-04 19:01:16,598] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:55:21.685388+00:00
+[2021-05-04 19:01:16,701] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 1.404 seconds
+[2021-05-04 19:01:46,821] {scheduler_job.py:182} INFO - Started process (PID=513) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:01:46,840] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:01:46,846] {logging_mixin.py:104} INFO - [2021-05-04 19:01:46,845] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:01:46,938] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:01:46,989] {logging_mixin.py:104} INFO - [2021-05-04 19:01:46,989] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:01:47,062] {logging_mixin.py:104} INFO - [2021-05-04 19:01:47,062] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:55:21.685388+00:00
+[2021-05-04 19:01:47,101] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.297 seconds
+[2021-05-04 19:02:17,268] {scheduler_job.py:182} INFO - Started process (PID=541) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:02:17,309] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:02:17,316] {logging_mixin.py:104} INFO - [2021-05-04 19:02:17,314] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:02:17,499] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:02:17,631] {logging_mixin.py:104} INFO - [2021-05-04 19:02:17,631] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:02:17,690] {logging_mixin.py:104} INFO - [2021-05-04 19:02:17,689] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:55:21.685388+00:00
+[2021-05-04 19:02:17,716] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.512 seconds
+[2021-05-04 19:02:47,850] {scheduler_job.py:182} INFO - Started process (PID=569) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:02:47,869] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:02:47,877] {logging_mixin.py:104} INFO - [2021-05-04 19:02:47,876] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:02:47,978] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:02:48,055] {logging_mixin.py:104} INFO - [2021-05-04 19:02:48,055] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:02:48,101] {logging_mixin.py:104} INFO - [2021-05-04 19:02:48,101] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:55:21.685388+00:00
+[2021-05-04 19:02:48,128] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.284 seconds
+[2021-05-04 19:03:18,330] {scheduler_job.py:182} INFO - Started process (PID=597) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:03:18,336] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:03:18,341] {logging_mixin.py:104} INFO - [2021-05-04 19:03:18,341] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:03:18,478] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:03:18,683] {logging_mixin.py:104} INFO - [2021-05-04 19:03:18,681] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:03:18,810] {logging_mixin.py:104} INFO - [2021-05-04 19:03:18,810] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:55:21.685388+00:00
+[2021-05-04 19:03:18,964] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.642 seconds
+[2021-05-04 19:03:49,096] {scheduler_job.py:182} INFO - Started process (PID=625) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:03:49,104] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:03:49,109] {logging_mixin.py:104} INFO - [2021-05-04 19:03:49,108] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:03:49,194] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:03:49,243] {logging_mixin.py:104} INFO - [2021-05-04 19:03:49,242] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:03:49,284] {logging_mixin.py:104} INFO - [2021-05-04 19:03:49,284] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:55:21.685388+00:00
+[2021-05-04 19:03:49,315] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.224 seconds
+[2021-05-04 19:04:19,745] {scheduler_job.py:182} INFO - Started process (PID=653) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:04:19,753] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:04:19,761] {logging_mixin.py:104} INFO - [2021-05-04 19:04:19,761] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:04:19,940] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:04:20,120] {logging_mixin.py:104} INFO - [2021-05-04 19:04:20,120] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:04:20,462] {logging_mixin.py:104} INFO - [2021-05-04 19:04:20,462] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:55:21.685388+00:00
+[2021-05-04 19:04:20,552] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.825 seconds
+[2021-05-04 19:04:51,611] {scheduler_job.py:182} INFO - Started process (PID=681) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:04:51,632] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:04:51,641] {logging_mixin.py:104} INFO - [2021-05-04 19:04:51,640] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:04:51,748] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:04:51,844] {logging_mixin.py:104} INFO - [2021-05-04 19:04:51,844] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:04:51,873] {logging_mixin.py:104} INFO - [2021-05-04 19:04:51,873] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 18:55:21.685388+00:00
+[2021-05-04 19:04:51,892] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.313 seconds
+[2021-05-04 19:05:22,840] {scheduler_job.py:182} INFO - Started process (PID=709) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:05:22,855] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:05:22,862] {logging_mixin.py:104} INFO - [2021-05-04 19:05:22,859] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:05:23,117] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:05:23,251] {logging_mixin.py:104} INFO - [2021-05-04 19:05:23,251] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:05:23,332] {logging_mixin.py:104} INFO - [2021-05-04 19:05:23,331] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:05:21.685388+00:00
+[2021-05-04 19:05:23,372] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.547 seconds
+[2021-05-04 19:05:53,999] {scheduler_job.py:182} INFO - Started process (PID=737) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:05:54,011] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:05:54,015] {logging_mixin.py:104} INFO - [2021-05-04 19:05:54,015] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:05:54,117] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:05:54,308] {logging_mixin.py:104} INFO - [2021-05-04 19:05:54,308] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:05:54,359] {logging_mixin.py:104} INFO - [2021-05-04 19:05:54,358] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:05:21.685388+00:00
+[2021-05-04 19:05:54,400] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.419 seconds
+[2021-05-04 19:06:25,228] {scheduler_job.py:182} INFO - Started process (PID=765) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:06:25,238] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:06:25,245] {logging_mixin.py:104} INFO - [2021-05-04 19:06:25,244] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:06:25,409] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:06:25,676] {logging_mixin.py:104} INFO - [2021-05-04 19:06:25,676] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:06:25,911] {logging_mixin.py:104} INFO - [2021-05-04 19:06:25,911] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:05:21.685388+00:00
+[2021-05-04 19:06:26,046] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.847 seconds
+[2021-05-04 19:06:56,982] {scheduler_job.py:182} INFO - Started process (PID=795) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:06:57,005] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:06:57,018] {logging_mixin.py:104} INFO - [2021-05-04 19:06:57,017] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:06:57,132] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:06:57,177] {logging_mixin.py:104} INFO - [2021-05-04 19:06:57,175] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:06:57,267] {logging_mixin.py:104} INFO - [2021-05-04 19:06:57,267] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:05:21.685388+00:00
+[2021-05-04 19:06:57,334] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.371 seconds
+[2021-05-04 19:07:28,056] {scheduler_job.py:182} INFO - Started process (PID=823) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:07:28,066] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:07:28,075] {logging_mixin.py:104} INFO - [2021-05-04 19:07:28,074] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:07:28,269] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:07:28,378] {logging_mixin.py:104} INFO - [2021-05-04 19:07:28,377] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:07:28,453] {logging_mixin.py:104} INFO - [2021-05-04 19:07:28,452] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:05:21.685388+00:00
+[2021-05-04 19:07:28,479] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.460 seconds
+[2021-05-04 19:08:00,672] {scheduler_job.py:182} INFO - Started process (PID=851) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:08:00,779] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:08:00,801] {logging_mixin.py:104} INFO - [2021-05-04 19:08:00,801] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:08:02,896] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:08:03,267] {logging_mixin.py:104} INFO - [2021-05-04 19:08:03,266] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:08:03,791] {logging_mixin.py:104} INFO - [2021-05-04 19:08:03,791] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:05:21.685388+00:00
+[2021-05-04 19:08:03,934] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 3.317 seconds
+[2021-05-04 19:08:34,913] {scheduler_job.py:182} INFO - Started process (PID=879) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:08:34,945] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:08:34,958] {logging_mixin.py:104} INFO - [2021-05-04 19:08:34,957] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:08:35,425] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:08:35,554] {logging_mixin.py:104} INFO - [2021-05-04 19:08:35,554] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:08:35,587] {logging_mixin.py:104} INFO - [2021-05-04 19:08:35,587] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:05:21.685388+00:00
+[2021-05-04 19:08:35,614] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.738 seconds
+[2021-05-04 19:09:06,355] {scheduler_job.py:182} INFO - Started process (PID=907) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:09:06,360] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:09:06,363] {logging_mixin.py:104} INFO - [2021-05-04 19:09:06,363] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:09:06,435] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:09:06,501] {logging_mixin.py:104} INFO - [2021-05-04 19:09:06,501] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:09:06,537] {logging_mixin.py:104} INFO - [2021-05-04 19:09:06,537] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:05:21.685388+00:00
+[2021-05-04 19:09:06,560] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.215 seconds
+[2021-05-04 19:09:36,887] {scheduler_job.py:182} INFO - Started process (PID=935) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:09:36,894] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:09:36,902] {logging_mixin.py:104} INFO - [2021-05-04 19:09:36,901] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:09:36,968] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:09:37,038] {logging_mixin.py:104} INFO - [2021-05-04 19:09:37,038] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:09:37,100] {logging_mixin.py:104} INFO - [2021-05-04 19:09:37,099] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:05:21.685388+00:00
+[2021-05-04 19:09:37,124] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.250 seconds
+[2021-05-04 19:10:07,417] {scheduler_job.py:182} INFO - Started process (PID=963) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:10:07,429] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:10:07,434] {logging_mixin.py:104} INFO - [2021-05-04 19:10:07,434] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:10:07,598] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:10:07,734] {logging_mixin.py:104} INFO - [2021-05-04 19:10:07,732] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:10:07,868] {logging_mixin.py:104} INFO - [2021-05-04 19:10:07,865] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:05:21.685388+00:00
+[2021-05-04 19:10:07,929] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.540 seconds
+[2021-05-04 19:12:27,404] {scheduler_job.py:182} INFO - Started process (PID=27) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:12:27,410] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:12:27,418] {logging_mixin.py:104} INFO - [2021-05-04 19:12:27,418] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:12:27,603] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:12:27,784] {logging_mixin.py:104} INFO - [2021-05-04 19:12:27,783] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:12:27,991] {logging_mixin.py:104} INFO - [2021-05-04 19:12:27,991] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:05:21.685388+00:00
+[2021-05-04 19:12:28,136] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.737 seconds
+[2021-05-04 19:12:58,739] {scheduler_job.py:182} INFO - Started process (PID=55) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:12:58,753] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:12:58,757] {logging_mixin.py:104} INFO - [2021-05-04 19:12:58,757] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:12:58,954] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:12:59,072] {logging_mixin.py:104} INFO - [2021-05-04 19:12:59,072] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:12:59,152] {logging_mixin.py:104} INFO - [2021-05-04 19:12:59,152] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:05:21.685388+00:00
+[2021-05-04 19:12:59,212] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.516 seconds
+[2021-05-04 19:13:30,184] {scheduler_job.py:182} INFO - Started process (PID=84) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:13:30,191] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:13:30,195] {logging_mixin.py:104} INFO - [2021-05-04 19:13:30,195] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:13:30,403] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:13:30,512] {logging_mixin.py:104} INFO - [2021-05-04 19:13:30,512] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:13:30,640] {logging_mixin.py:104} INFO - [2021-05-04 19:13:30,640] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:05:21.685388+00:00
+[2021-05-04 19:13:30,689] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.532 seconds
+[2021-05-04 19:14:01,338] {scheduler_job.py:182} INFO - Started process (PID=113) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:14:01,348] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:14:01,355] {logging_mixin.py:104} INFO - [2021-05-04 19:14:01,355] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:14:01,627] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:14:01,757] {logging_mixin.py:104} INFO - [2021-05-04 19:14:01,757] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:14:01,793] {logging_mixin.py:104} INFO - [2021-05-04 19:14:01,793] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:05:21.685388+00:00
+[2021-05-04 19:14:01,822] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.505 seconds
+[2021-05-04 19:14:33,354] {scheduler_job.py:182} INFO - Started process (PID=141) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:14:33,369] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:14:33,378] {logging_mixin.py:104} INFO - [2021-05-04 19:14:33,377] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:14:33,545] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:14:33,653] {logging_mixin.py:104} INFO - [2021-05-04 19:14:33,652] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:14:33,771] {logging_mixin.py:104} INFO - [2021-05-04 19:14:33,771] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:05:21.685388+00:00
+[2021-05-04 19:14:33,843] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.506 seconds
+[2021-05-04 19:15:05,507] {scheduler_job.py:182} INFO - Started process (PID=169) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:15:05,533] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:15:05,541] {logging_mixin.py:104} INFO - [2021-05-04 19:15:05,541] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:15:05,813] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:15:05,931] {logging_mixin.py:104} INFO - [2021-05-04 19:15:05,931] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:15:06,027] {logging_mixin.py:104} INFO - [2021-05-04 19:15:06,026] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:05:21.685388+00:00
+[2021-05-04 19:15:06,114] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.648 seconds
+[2021-05-04 19:15:37,211] {scheduler_job.py:182} INFO - Started process (PID=197) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:15:37,260] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:15:37,290] {logging_mixin.py:104} INFO - [2021-05-04 19:15:37,289] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:15:37,782] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:15:38,096] {logging_mixin.py:104} INFO - [2021-05-04 19:15:38,096] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:15:38,374] {logging_mixin.py:104} INFO - [2021-05-04 19:15:38,372] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:15:21.685388+00:00
+[2021-05-04 19:15:38,508] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 1.443 seconds
+[2021-05-04 19:16:08,670] {scheduler_job.py:182} INFO - Started process (PID=225) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:16:08,675] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:16:08,678] {logging_mixin.py:104} INFO - [2021-05-04 19:16:08,677] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:16:08,732] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:16:08,779] {logging_mixin.py:104} INFO - [2021-05-04 19:16:08,778] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:16:08,808] {logging_mixin.py:104} INFO - [2021-05-04 19:16:08,808] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:15:21.685388+00:00
+[2021-05-04 19:16:08,832] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.168 seconds
+[2021-05-04 19:16:39,830] {scheduler_job.py:182} INFO - Started process (PID=253) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:16:39,849] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:16:39,878] {logging_mixin.py:104} INFO - [2021-05-04 19:16:39,878] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:16:40,333] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:16:40,475] {logging_mixin.py:104} INFO - [2021-05-04 19:16:40,474] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:16:40,540] {logging_mixin.py:104} INFO - [2021-05-04 19:16:40,540] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:15:21.685388+00:00
+[2021-05-04 19:16:40,649] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.876 seconds
+[2021-05-04 19:17:11,349] {scheduler_job.py:182} INFO - Started process (PID=281) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:17:11,356] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:17:11,362] {logging_mixin.py:104} INFO - [2021-05-04 19:17:11,361] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:17:11,436] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:17:11,488] {logging_mixin.py:104} INFO - [2021-05-04 19:17:11,487] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:17:11,513] {logging_mixin.py:104} INFO - [2021-05-04 19:17:11,513] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:15:21.685388+00:00
+[2021-05-04 19:17:11,533] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.195 seconds
+[2021-05-04 19:17:41,681] {scheduler_job.py:182} INFO - Started process (PID=309) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:17:41,687] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:17:41,696] {logging_mixin.py:104} INFO - [2021-05-04 19:17:41,694] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:17:41,773] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:17:41,808] {logging_mixin.py:104} INFO - [2021-05-04 19:17:41,808] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:17:41,861] {logging_mixin.py:104} INFO - [2021-05-04 19:17:41,861] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:15:21.685388+00:00
+[2021-05-04 19:17:41,904] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.239 seconds
+[2021-05-04 19:18:12,343] {scheduler_job.py:182} INFO - Started process (PID=337) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:18:12,354] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:18:12,357] {logging_mixin.py:104} INFO - [2021-05-04 19:18:12,357] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:18:12,460] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:18:12,511] {logging_mixin.py:104} INFO - [2021-05-04 19:18:12,511] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:18:12,542] {logging_mixin.py:104} INFO - [2021-05-04 19:18:12,542] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:15:21.685388+00:00
+[2021-05-04 19:18:12,560] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.224 seconds
+[2021-05-04 19:18:42,695] {scheduler_job.py:182} INFO - Started process (PID=365) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:18:42,709] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:18:42,720] {logging_mixin.py:104} INFO - [2021-05-04 19:18:42,718] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:18:42,849] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:18:42,912] {logging_mixin.py:104} INFO - [2021-05-04 19:18:42,912] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:18:42,971] {logging_mixin.py:104} INFO - [2021-05-04 19:18:42,971] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:15:21.685388+00:00
+[2021-05-04 19:18:42,999] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.318 seconds
+[2021-05-04 19:19:13,367] {scheduler_job.py:182} INFO - Started process (PID=393) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:19:13,390] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:19:13,393] {logging_mixin.py:104} INFO - [2021-05-04 19:19:13,393] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:19:13,491] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:19:13,586] {logging_mixin.py:104} INFO - [2021-05-04 19:19:13,586] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:19:13,623] {logging_mixin.py:104} INFO - [2021-05-04 19:19:13,623] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:15:21.685388+00:00
+[2021-05-04 19:19:13,640] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.300 seconds
+[2021-05-04 19:19:44,158] {scheduler_job.py:182} INFO - Started process (PID=421) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:19:44,169] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:19:44,175] {logging_mixin.py:104} INFO - [2021-05-04 19:19:44,173] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:19:44,264] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:19:44,334] {logging_mixin.py:104} INFO - [2021-05-04 19:19:44,334] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:19:44,381] {logging_mixin.py:104} INFO - [2021-05-04 19:19:44,380] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:15:21.685388+00:00
+[2021-05-04 19:19:44,415] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.262 seconds
+[2021-05-04 19:20:15,005] {scheduler_job.py:182} INFO - Started process (PID=449) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:20:15,010] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:20:15,020] {logging_mixin.py:104} INFO - [2021-05-04 19:20:15,018] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:20:15,220] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:20:15,415] {logging_mixin.py:104} INFO - [2021-05-04 19:20:15,414] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:20:15,458] {logging_mixin.py:104} INFO - [2021-05-04 19:20:15,458] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:15:21.685388+00:00
+[2021-05-04 19:20:15,484] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.492 seconds
+[2021-05-04 19:20:46,281] {scheduler_job.py:182} INFO - Started process (PID=477) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:20:46,296] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:20:46,300] {logging_mixin.py:104} INFO - [2021-05-04 19:20:46,300] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:20:46,411] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:20:46,516] {logging_mixin.py:104} INFO - [2021-05-04 19:20:46,515] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:20:46,626] {logging_mixin.py:104} INFO - [2021-05-04 19:20:46,626] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:15:21.685388+00:00
+[2021-05-04 19:20:46,668] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.399 seconds
+[2021-05-04 19:21:17,623] {scheduler_job.py:182} INFO - Started process (PID=505) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:21:17,635] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:21:17,642] {logging_mixin.py:104} INFO - [2021-05-04 19:21:17,642] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:21:17,780] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:21:17,902] {logging_mixin.py:104} INFO - [2021-05-04 19:21:17,901] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:21:17,970] {logging_mixin.py:104} INFO - [2021-05-04 19:21:17,970] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:15:21.685388+00:00
+[2021-05-04 19:21:18,011] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.413 seconds
+[2021-05-04 19:21:49,624] {scheduler_job.py:182} INFO - Started process (PID=534) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:21:49,646] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:21:49,649] {logging_mixin.py:104} INFO - [2021-05-04 19:21:49,649] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:21:49,787] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:21:49,932] {logging_mixin.py:104} INFO - [2021-05-04 19:21:49,932] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:21:49,987] {logging_mixin.py:104} INFO - [2021-05-04 19:21:49,987] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:15:21.685388+00:00
+[2021-05-04 19:21:50,017] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.406 seconds
+[2021-05-04 19:22:21,988] {scheduler_job.py:182} INFO - Started process (PID=562) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:22:22,018] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:22:22,115] {logging_mixin.py:104} INFO - [2021-05-04 19:22:22,114] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:22:22,427] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:22:22,540] {logging_mixin.py:104} INFO - [2021-05-04 19:22:22,539] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:22:22,690] {logging_mixin.py:104} INFO - [2021-05-04 19:22:22,690] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:15:21.685388+00:00
+[2021-05-04 19:22:22,758] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.783 seconds
+[2021-05-04 19:22:55,739] {scheduler_job.py:182} INFO - Started process (PID=591) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:22:55,747] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:22:55,750] {logging_mixin.py:104} INFO - [2021-05-04 19:22:55,749] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:22:56,219] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:22:56,303] {logging_mixin.py:104} INFO - [2021-05-04 19:22:56,303] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:22:56,364] {logging_mixin.py:104} INFO - [2021-05-04 19:22:56,363] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:15:21.685388+00:00
+[2021-05-04 19:22:56,421] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.721 seconds
+[2021-05-04 19:23:26,550] {scheduler_job.py:182} INFO - Started process (PID=619) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:23:26,570] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:23:26,587] {logging_mixin.py:104} INFO - [2021-05-04 19:23:26,584] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:23:27,031] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:23:27,352] {logging_mixin.py:104} INFO - [2021-05-04 19:23:27,352] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:23:27,488] {logging_mixin.py:104} INFO - [2021-05-04 19:23:27,488] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:15:21.685388+00:00
+[2021-05-04 19:23:27,560] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 1.036 seconds
+[2021-05-04 19:23:58,284] {scheduler_job.py:182} INFO - Started process (PID=647) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:23:58,295] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:23:58,301] {logging_mixin.py:104} INFO - [2021-05-04 19:23:58,300] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:23:58,528] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:23:58,678] {logging_mixin.py:104} INFO - [2021-05-04 19:23:58,678] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:23:58,715] {logging_mixin.py:104} INFO - [2021-05-04 19:23:58,715] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:15:21.685388+00:00
+[2021-05-04 19:23:58,741] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.465 seconds
+[2021-05-04 19:24:29,161] {scheduler_job.py:182} INFO - Started process (PID=675) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:24:29,168] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:24:29,177] {logging_mixin.py:104} INFO - [2021-05-04 19:24:29,177] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:24:29,344] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:24:29,699] {logging_mixin.py:104} INFO - [2021-05-04 19:24:29,696] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:24:29,807] {logging_mixin.py:104} INFO - [2021-05-04 19:24:29,807] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:15:21.685388+00:00
+[2021-05-04 19:24:29,829] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.689 seconds
+[2021-05-04 19:25:00,793] {scheduler_job.py:182} INFO - Started process (PID=704) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:25:00,812] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:25:00,820] {logging_mixin.py:104} INFO - [2021-05-04 19:25:00,819] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:25:00,991] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:25:01,054] {logging_mixin.py:104} INFO - [2021-05-04 19:25:01,054] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:25:01,107] {logging_mixin.py:104} INFO - [2021-05-04 19:25:01,106] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:15:21.685388+00:00
+[2021-05-04 19:25:01,162] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.384 seconds
+[2021-05-04 19:25:33,277] {scheduler_job.py:182} INFO - Started process (PID=732) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:25:33,300] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:25:33,305] {logging_mixin.py:104} INFO - [2021-05-04 19:25:33,304] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:25:33,482] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:25:33,550] {logging_mixin.py:104} INFO - [2021-05-04 19:25:33,550] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:25:33,630] {logging_mixin.py:104} INFO - [2021-05-04 19:25:33,630] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:25:21.685388+00:00
+[2021-05-04 19:25:33,668] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.421 seconds
+[2021-05-04 19:26:04,116] {scheduler_job.py:182} INFO - Started process (PID=760) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:26:04,132] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:26:04,140] {logging_mixin.py:104} INFO - [2021-05-04 19:26:04,140] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:26:04,369] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:26:04,463] {logging_mixin.py:104} INFO - [2021-05-04 19:26:04,463] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:26:04,549] {logging_mixin.py:104} INFO - [2021-05-04 19:26:04,549] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:25:21.685388+00:00
+[2021-05-04 19:26:04,584] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.486 seconds
+[2021-05-04 19:26:35,216] {scheduler_job.py:182} INFO - Started process (PID=787) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:26:35,231] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:26:35,240] {logging_mixin.py:104} INFO - [2021-05-04 19:26:35,239] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:26:35,622] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:26:35,721] {logging_mixin.py:104} INFO - [2021-05-04 19:26:35,721] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:26:35,776] {logging_mixin.py:104} INFO - [2021-05-04 19:26:35,776] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:25:21.685388+00:00
+[2021-05-04 19:26:35,810] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.616 seconds
+[2021-05-04 19:27:06,597] {scheduler_job.py:182} INFO - Started process (PID=815) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:27:06,610] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:27:06,613] {logging_mixin.py:104} INFO - [2021-05-04 19:27:06,613] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:27:06,691] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:27:06,737] {logging_mixin.py:104} INFO - [2021-05-04 19:27:06,737] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:27:06,766] {logging_mixin.py:104} INFO - [2021-05-04 19:27:06,765] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:25:21.685388+00:00
+[2021-05-04 19:27:06,813] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.243 seconds
+[2021-05-04 19:27:37,538] {scheduler_job.py:182} INFO - Started process (PID=843) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:27:37,555] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:27:37,566] {logging_mixin.py:104} INFO - [2021-05-04 19:27:37,563] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:27:37,710] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:27:37,799] {logging_mixin.py:104} INFO - [2021-05-04 19:27:37,799] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:27:37,854] {logging_mixin.py:104} INFO - [2021-05-04 19:27:37,854] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:25:21.685388+00:00
+[2021-05-04 19:27:37,943] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.424 seconds
+[2021-05-04 19:28:08,784] {scheduler_job.py:182} INFO - Started process (PID=871) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:28:08,793] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:28:08,798] {logging_mixin.py:104} INFO - [2021-05-04 19:28:08,797] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:28:08,882] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:28:08,937] {logging_mixin.py:104} INFO - [2021-05-04 19:28:08,937] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:28:08,964] {logging_mixin.py:104} INFO - [2021-05-04 19:28:08,964] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:25:21.685388+00:00
+[2021-05-04 19:28:08,983] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.212 seconds
+[2021-05-04 19:28:39,147] {scheduler_job.py:182} INFO - Started process (PID=899) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:28:39,171] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:28:39,176] {logging_mixin.py:104} INFO - [2021-05-04 19:28:39,175] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:28:39,412] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:28:39,512] {logging_mixin.py:104} INFO - [2021-05-04 19:28:39,511] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:28:39,567] {logging_mixin.py:104} INFO - [2021-05-04 19:28:39,567] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:25:21.685388+00:00
+[2021-05-04 19:28:39,632] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.507 seconds
+[2021-05-04 19:30:44,206] {scheduler_job.py:182} INFO - Started process (PID=27) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:30:44,237] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:30:44,247] {logging_mixin.py:104} INFO - [2021-05-04 19:30:44,247] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:30:44,743] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:30:44,918] {logging_mixin.py:104} INFO - [2021-05-04 19:30:44,918] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:30:45,076] {logging_mixin.py:104} INFO - [2021-05-04 19:30:45,076] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:25:21.685388+00:00
+[2021-05-04 19:30:45,160] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 1.000 seconds
+[2021-05-04 19:31:15,373] {scheduler_job.py:182} INFO - Started process (PID=28) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:31:15,388] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:31:15,404] {logging_mixin.py:104} INFO - [2021-05-04 19:31:15,404] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:31:15,541] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:31:15,631] {logging_mixin.py:104} INFO - [2021-05-04 19:31:15,631] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:31:15,720] {logging_mixin.py:104} INFO - [2021-05-04 19:31:15,720] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:25:21.685388+00:00
+[2021-05-04 19:31:15,760] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.400 seconds
+[2021-05-04 19:31:46,477] {scheduler_job.py:182} INFO - Started process (PID=30) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:31:46,495] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:31:46,517] {logging_mixin.py:104} INFO - [2021-05-04 19:31:46,517] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:31:46,895] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:31:47,096] {logging_mixin.py:104} INFO - [2021-05-04 19:31:47,096] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:31:47,259] {logging_mixin.py:104} INFO - [2021-05-04 19:31:47,259] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:25:21.685388+00:00
+[2021-05-04 19:31:47,328] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.965 seconds
+[2021-05-04 19:32:18,058] {scheduler_job.py:182} INFO - Started process (PID=32) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:32:18,063] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:32:18,066] {logging_mixin.py:104} INFO - [2021-05-04 19:32:18,066] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:32:18,134] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:32:18,192] {logging_mixin.py:104} INFO - [2021-05-04 19:32:18,192] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:32:18,224] {logging_mixin.py:104} INFO - [2021-05-04 19:32:18,224] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:25:21.685388+00:00
+[2021-05-04 19:32:18,245] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.193 seconds
+[2021-05-04 19:32:48,422] {scheduler_job.py:182} INFO - Started process (PID=34) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:32:48,427] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:32:48,430] {logging_mixin.py:104} INFO - [2021-05-04 19:32:48,430] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:32:48,510] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:32:48,566] {logging_mixin.py:104} INFO - [2021-05-04 19:32:48,566] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:32:48,653] {logging_mixin.py:104} INFO - [2021-05-04 19:32:48,653] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:25:21.685388+00:00
+[2021-05-04 19:32:48,735] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.321 seconds
+[2021-05-04 19:33:18,900] {scheduler_job.py:182} INFO - Started process (PID=36) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:33:18,907] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:33:18,915] {logging_mixin.py:104} INFO - [2021-05-04 19:33:18,914] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:33:19,019] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:33:19,070] {logging_mixin.py:104} INFO - [2021-05-04 19:33:19,070] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:33:19,101] {logging_mixin.py:104} INFO - [2021-05-04 19:33:19,101] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:23:19.101198+00:00
+[2021-05-04 19:33:19,122] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.232 seconds
+[2021-05-04 19:33:49,452] {scheduler_job.py:182} INFO - Started process (PID=38) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:33:49,473] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:33:49,489] {logging_mixin.py:104} INFO - [2021-05-04 19:33:49,482] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:33:49,718] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:33:49,803] {logging_mixin.py:104} INFO - [2021-05-04 19:33:49,803] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:33:49,868] {logging_mixin.py:104} INFO - [2021-05-04 19:33:49,868] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:33:19.101198+00:00
+[2021-05-04 19:33:49,901] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.476 seconds
+[2021-05-04 19:34:20,730] {scheduler_job.py:182} INFO - Started process (PID=40) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:34:20,737] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:34:20,741] {logging_mixin.py:104} INFO - [2021-05-04 19:34:20,741] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:34:20,841] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:34:20,902] {logging_mixin.py:104} INFO - [2021-05-04 19:34:20,902] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:34:20,951] {logging_mixin.py:104} INFO - [2021-05-04 19:34:20,951] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:33:19.101198+00:00
+[2021-05-04 19:34:20,972] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.251 seconds
+[2021-05-04 19:34:51,168] {scheduler_job.py:182} INFO - Started process (PID=42) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:34:51,179] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:34:51,183] {logging_mixin.py:104} INFO - [2021-05-04 19:34:51,183] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:34:51,253] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:34:51,302] {logging_mixin.py:104} INFO - [2021-05-04 19:34:51,302] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:34:51,333] {logging_mixin.py:104} INFO - [2021-05-04 19:34:51,333] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:33:19.101198+00:00
+[2021-05-04 19:34:51,360] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.203 seconds
+[2021-05-04 19:35:21,435] {scheduler_job.py:182} INFO - Started process (PID=44) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:35:21,440] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:35:21,443] {logging_mixin.py:104} INFO - [2021-05-04 19:35:21,443] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:35:21,518] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:35:21,576] {logging_mixin.py:104} INFO - [2021-05-04 19:35:21,576] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:35:21,609] {logging_mixin.py:104} INFO - [2021-05-04 19:35:21,609] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:33:19.101198+00:00
+[2021-05-04 19:35:21,637] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.211 seconds
+[2021-05-04 19:35:51,727] {scheduler_job.py:182} INFO - Started process (PID=46) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:35:51,732] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:35:51,735] {logging_mixin.py:104} INFO - [2021-05-04 19:35:51,734] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:35:51,821] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:35:51,867] {logging_mixin.py:104} INFO - [2021-05-04 19:35:51,867] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:35:51,897] {logging_mixin.py:104} INFO - [2021-05-04 19:35:51,897] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:33:19.101198+00:00
+[2021-05-04 19:35:51,912] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.199 seconds
+[2021-05-04 19:36:22,085] {scheduler_job.py:182} INFO - Started process (PID=48) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:36:22,088] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:36:22,094] {logging_mixin.py:104} INFO - [2021-05-04 19:36:22,094] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:36:22,155] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:36:22,192] {logging_mixin.py:104} INFO - [2021-05-04 19:36:22,192] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:36:22,223] {logging_mixin.py:104} INFO - [2021-05-04 19:36:22,222] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:33:19.101198+00:00
+[2021-05-04 19:36:22,237] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.158 seconds
+[2021-05-04 19:36:52,394] {scheduler_job.py:182} INFO - Started process (PID=50) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:36:52,400] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:36:52,402] {logging_mixin.py:104} INFO - [2021-05-04 19:36:52,402] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:36:52,465] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:36:52,504] {logging_mixin.py:104} INFO - [2021-05-04 19:36:52,504] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:36:52,527] {logging_mixin.py:104} INFO - [2021-05-04 19:36:52,527] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:33:19.101198+00:00
+[2021-05-04 19:36:52,542] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.153 seconds
+[2021-05-04 19:37:22,855] {scheduler_job.py:182} INFO - Started process (PID=52) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:37:22,861] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:37:22,864] {logging_mixin.py:104} INFO - [2021-05-04 19:37:22,863] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:37:22,940] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:37:22,975] {logging_mixin.py:104} INFO - [2021-05-04 19:37:22,975] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:37:22,999] {logging_mixin.py:104} INFO - [2021-05-04 19:37:22,999] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:33:19.101198+00:00
+[2021-05-04 19:37:23,019] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.170 seconds
+[2021-05-04 19:37:53,616] {scheduler_job.py:182} INFO - Started process (PID=54) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:37:53,634] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:37:53,643] {logging_mixin.py:104} INFO - [2021-05-04 19:37:53,642] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:37:54,294] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:37:54,879] {logging_mixin.py:104} INFO - [2021-05-04 19:37:54,879] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:37:54,951] {logging_mixin.py:104} INFO - [2021-05-04 19:37:54,951] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:33:19.101198+00:00
+[2021-05-04 19:37:54,985] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 1.403 seconds
+[2021-05-04 19:38:25,326] {scheduler_job.py:182} INFO - Started process (PID=56) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:38:25,342] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:38:25,348] {logging_mixin.py:104} INFO - [2021-05-04 19:38:25,347] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:38:25,441] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:38:25,523] {logging_mixin.py:104} INFO - [2021-05-04 19:38:25,522] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:38:25,577] {logging_mixin.py:104} INFO - [2021-05-04 19:38:25,577] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:33:19.101198+00:00
+[2021-05-04 19:38:25,602] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.285 seconds
+[2021-05-04 19:38:55,888] {scheduler_job.py:182} INFO - Started process (PID=58) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:38:55,902] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:38:55,906] {logging_mixin.py:104} INFO - [2021-05-04 19:38:55,906] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:38:56,034] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:38:56,132] {logging_mixin.py:104} INFO - [2021-05-04 19:38:56,131] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:38:56,205] {logging_mixin.py:104} INFO - [2021-05-04 19:38:56,205] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:33:19.101198+00:00
+[2021-05-04 19:38:56,254] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.382 seconds
+[2021-05-04 19:39:26,479] {scheduler_job.py:182} INFO - Started process (PID=60) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:39:26,487] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:39:26,540] {logging_mixin.py:104} INFO - [2021-05-04 19:39:26,494] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:39:26,600] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:39:26,682] {logging_mixin.py:104} INFO - [2021-05-04 19:39:26,682] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:39:26,713] {logging_mixin.py:104} INFO - [2021-05-04 19:39:26,713] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:33:19.101198+00:00
+[2021-05-04 19:39:26,732] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.266 seconds
+[2021-05-04 19:39:56,875] {scheduler_job.py:182} INFO - Started process (PID=62) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:39:56,881] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:39:56,883] {logging_mixin.py:104} INFO - [2021-05-04 19:39:56,883] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:39:56,953] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:39:57,036] {logging_mixin.py:104} INFO - [2021-05-04 19:39:57,036] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:39:57,122] {logging_mixin.py:104} INFO - [2021-05-04 19:39:57,122] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:33:19.101198+00:00
+[2021-05-04 19:39:57,152] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.283 seconds
+[2021-05-04 19:40:27,428] {scheduler_job.py:182} INFO - Started process (PID=64) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:40:27,435] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:40:27,437] {logging_mixin.py:104} INFO - [2021-05-04 19:40:27,437] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:40:27,489] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:40:27,531] {logging_mixin.py:104} INFO - [2021-05-04 19:40:27,531] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:40:27,575] {logging_mixin.py:104} INFO - [2021-05-04 19:40:27,574] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:33:19.101198+00:00
+[2021-05-04 19:40:27,595] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.173 seconds
+[2021-05-04 19:40:57,930] {scheduler_job.py:182} INFO - Started process (PID=66) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:40:57,943] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:40:57,947] {logging_mixin.py:104} INFO - [2021-05-04 19:40:57,947] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:40:58,200] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:40:58,379] {logging_mixin.py:104} INFO - [2021-05-04 19:40:58,379] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:40:58,507] {logging_mixin.py:104} INFO - [2021-05-04 19:40:58,507] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:33:19.101198+00:00
+[2021-05-04 19:40:58,579] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.657 seconds
+[2021-05-04 19:41:29,264] {scheduler_job.py:182} INFO - Started process (PID=68) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:41:29,274] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:41:29,279] {logging_mixin.py:104} INFO - [2021-05-04 19:41:29,279] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:41:29,369] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:41:29,434] {logging_mixin.py:104} INFO - [2021-05-04 19:41:29,434] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:41:29,473] {logging_mixin.py:104} INFO - [2021-05-04 19:41:29,472] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:33:19.101198+00:00
+[2021-05-04 19:41:29,500] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.251 seconds
+[2021-05-04 19:41:59,718] {scheduler_job.py:182} INFO - Started process (PID=70) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:41:59,724] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:41:59,729] {logging_mixin.py:104} INFO - [2021-05-04 19:41:59,728] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:41:59,788] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:41:59,841] {logging_mixin.py:104} INFO - [2021-05-04 19:41:59,841] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:41:59,876] {logging_mixin.py:104} INFO - [2021-05-04 19:41:59,876] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:33:19.101198+00:00
+[2021-05-04 19:41:59,896] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.188 seconds
+[2021-05-04 19:42:30,082] {scheduler_job.py:182} INFO - Started process (PID=72) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:42:30,089] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:42:30,094] {logging_mixin.py:104} INFO - [2021-05-04 19:42:30,093] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:42:30,634] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:42:31,228] {logging_mixin.py:104} INFO - [2021-05-04 19:42:31,227] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:42:31,594] {logging_mixin.py:104} INFO - [2021-05-04 19:42:31,594] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:33:19.101198+00:00
+[2021-05-04 19:42:31,836] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 1.780 seconds
+[2021-05-04 19:43:02,209] {scheduler_job.py:182} INFO - Started process (PID=74) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:43:02,215] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:43:02,224] {logging_mixin.py:104} INFO - [2021-05-04 19:43:02,222] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:43:02,303] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:43:02,365] {logging_mixin.py:104} INFO - [2021-05-04 19:43:02,364] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:43:02,400] {logging_mixin.py:104} INFO - [2021-05-04 19:43:02,400] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:33:19.101198+00:00
+[2021-05-04 19:43:02,426] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.229 seconds
+[2021-05-04 19:43:32,567] {scheduler_job.py:182} INFO - Started process (PID=76) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:43:32,578] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:43:32,584] {logging_mixin.py:104} INFO - [2021-05-04 19:43:32,584] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:43:32,675] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:43:32,721] {logging_mixin.py:104} INFO - [2021-05-04 19:43:32,721] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:43:32,750] {logging_mixin.py:104} INFO - [2021-05-04 19:43:32,750] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:33:32.750449+00:00
+[2021-05-04 19:43:32,771] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.217 seconds
+[2021-05-04 19:44:02,945] {scheduler_job.py:182} INFO - Started process (PID=78) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:44:02,949] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:44:02,952] {logging_mixin.py:104} INFO - [2021-05-04 19:44:02,951] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:44:03,001] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:44:03,040] {logging_mixin.py:104} INFO - [2021-05-04 19:44:03,040] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:44:03,067] {logging_mixin.py:104} INFO - [2021-05-04 19:44:03,067] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:34:03.067040+00:00
+[2021-05-04 19:44:03,093] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.155 seconds
+[2021-05-04 19:44:33,165] {scheduler_job.py:182} INFO - Started process (PID=80) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:44:33,170] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:44:33,172] {logging_mixin.py:104} INFO - [2021-05-04 19:44:33,172] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:44:33,229] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:44:33,271] {logging_mixin.py:104} INFO - [2021-05-04 19:44:33,271] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:44:33,304] {logging_mixin.py:104} INFO - [2021-05-04 19:44:33,304] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:34:33.304336+00:00
+[2021-05-04 19:44:33,325] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.167 seconds
+[2021-05-04 19:45:03,472] {scheduler_job.py:182} INFO - Started process (PID=82) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:45:03,478] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:45:03,483] {logging_mixin.py:104} INFO - [2021-05-04 19:45:03,483] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:45:03,561] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:45:03,607] {logging_mixin.py:104} INFO - [2021-05-04 19:45:03,607] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:45:03,640] {logging_mixin.py:104} INFO - [2021-05-04 19:45:03,640] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:35:03.639989+00:00
+[2021-05-04 19:45:03,658] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.190 seconds
+[2021-05-04 19:45:34,012] {scheduler_job.py:182} INFO - Started process (PID=83) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:45:34,022] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:45:34,025] {logging_mixin.py:104} INFO - [2021-05-04 19:45:34,025] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:45:34,084] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:45:34,142] {logging_mixin.py:104} INFO - [2021-05-04 19:45:34,142] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:45:34,181] {logging_mixin.py:104} INFO - [2021-05-04 19:45:34,180] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:35:34.180740+00:00
+[2021-05-04 19:45:34,212] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.207 seconds
+[2021-05-04 19:46:04,308] {scheduler_job.py:182} INFO - Started process (PID=85) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:46:04,319] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:46:04,325] {logging_mixin.py:104} INFO - [2021-05-04 19:46:04,324] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:46:04,400] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:46:04,447] {logging_mixin.py:104} INFO - [2021-05-04 19:46:04,447] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:46:04,479] {logging_mixin.py:104} INFO - [2021-05-04 19:46:04,479] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:36:04.479322+00:00
+[2021-05-04 19:46:04,503] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.201 seconds
+[2021-05-04 19:46:34,622] {scheduler_job.py:182} INFO - Started process (PID=87) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:46:34,627] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:46:34,630] {logging_mixin.py:104} INFO - [2021-05-04 19:46:34,630] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:46:34,696] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:46:34,761] {logging_mixin.py:104} INFO - [2021-05-04 19:46:34,761] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:46:34,793] {logging_mixin.py:104} INFO - [2021-05-04 19:46:34,793] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:36:34.792861+00:00
+[2021-05-04 19:46:34,821] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.204 seconds
+[2021-05-04 19:47:05,041] {scheduler_job.py:182} INFO - Started process (PID=89) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:47:05,048] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:47:05,050] {logging_mixin.py:104} INFO - [2021-05-04 19:47:05,050] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:47:05,115] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:47:05,162] {logging_mixin.py:104} INFO - [2021-05-04 19:47:05,162] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:47:05,196] {logging_mixin.py:104} INFO - [2021-05-04 19:47:05,196] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-04 19:37:05.196000+00:00
+[2021-05-04 19:47:05,221] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.186 seconds
+[2021-05-04 19:47:35,500] {scheduler_job.py:182} INFO - Started process (PID=91) to work on /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:47:35,515] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_email_dag.py for tasks to queue
+[2021-05-04 19:47:35,526] {logging_mixin.py:104} INFO - [2021-05-04 19:47:35,524] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:47:35,679] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_best_sellers_email']) retrieved from /opt/airflow/dags/NYT_best_sellers_email_dag.py
+[2021-05-04 19:47:35,749] {logging_mixin.py:104} INFO - [2021-05-04 19:47:35,749] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:47:35,791] {logging_mixin.py:104} INFO - [2021-05-04 19:47:35,791] {dag.py:2280} INFO - Setting next_dagrun for nyt_best_sellers_email to 2021-05-05 19:23:19.101198+00:00
+[2021-05-04 19:47:35,853] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_email_dag.py took 0.367 seconds
