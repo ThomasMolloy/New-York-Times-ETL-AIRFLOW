@@ -1,0 +1,832 @@
+[2021-05-03 18:31:23,623] {scheduler_job.py:182} INFO - Started process (PID=52) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 18:31:23,638] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 18:31:23,648] {logging_mixin.py:104} INFO - [2021-05-03 18:31:23,646] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 18:31:36,998] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 18:31:37,059] {logging_mixin.py:104} INFO - [2021-05-03 18:31:37,059] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 18:31:37,152] {logging_mixin.py:104} INFO - [2021-05-03 18:31:37,146] {dag.py:1843} INFO - Creating ORM DAG for nyt_bestsellers_ETL
+[2021-05-03 18:31:37,486] {logging_mixin.py:104} INFO - [2021-05-03 18:31:37,486] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 18:21:37.482160+00:00
+[2021-05-03 18:31:37,765] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 14.197 seconds
+[2021-05-03 18:32:08,271] {scheduler_job.py:182} INFO - Started process (PID=90) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 18:32:08,277] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 18:32:08,311] {logging_mixin.py:104} INFO - [2021-05-03 18:32:08,310] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 18:32:18,191] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 18:32:18,316] {logging_mixin.py:104} INFO - [2021-05-03 18:32:18,315] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 18:32:18,414] {logging_mixin.py:104} INFO - [2021-05-03 18:32:18,414] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 18:22:18.414532+00:00
+[2021-05-03 18:32:18,633] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 10.402 seconds
+[2021-05-03 18:33:04,580] {scheduler_job.py:182} INFO - Started process (PID=128) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 18:33:04,611] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 18:33:04,619] {logging_mixin.py:104} INFO - [2021-05-03 18:33:04,618] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:24:58,008] {scheduler_job.py:182} INFO - Started process (PID=32) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:24:58,022] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:24:58,033] {logging_mixin.py:104} INFO - [2021-05-03 22:24:58,033] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:25:10,443] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:25:10,632] {logging_mixin.py:104} INFO - [2021-05-03 22:25:10,632] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:25:10,701] {logging_mixin.py:104} INFO - [2021-05-03 22:25:10,701] {dag.py:1843} INFO - Creating ORM DAG for nyt_bestsellers_ETL
+[2021-05-03 22:25:10,740] {logging_mixin.py:104} INFO - [2021-05-03 22:25:10,740] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:15:10.739955+00:00
+[2021-05-03 22:25:10,869] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 12.872 seconds
+[2021-05-03 22:25:56,971] {scheduler_job.py:182} INFO - Started process (PID=60) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:25:57,003] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:25:57,015] {logging_mixin.py:104} INFO - [2021-05-03 22:25:57,015] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:26:02,726] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:26:02,914] {logging_mixin.py:104} INFO - [2021-05-03 22:26:02,914] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:26:03,052] {logging_mixin.py:104} INFO - [2021-05-03 22:26:03,047] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:16:03.047557+00:00
+[2021-05-03 22:26:03,212] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 6.271 seconds
+[2021-05-03 22:26:33,890] {scheduler_job.py:182} INFO - Started process (PID=95) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:26:33,911] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:26:33,915] {logging_mixin.py:104} INFO - [2021-05-03 22:26:33,915] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:26:36,652] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:26:36,839] {logging_mixin.py:104} INFO - [2021-05-03 22:26:36,839] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:26:36,887] {logging_mixin.py:104} INFO - [2021-05-03 22:26:36,887] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:16:36.886972+00:00
+[2021-05-03 22:26:36,928] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 3.050 seconds
+[2021-05-03 22:27:07,550] {scheduler_job.py:182} INFO - Started process (PID=126) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:27:07,613] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:27:07,644] {logging_mixin.py:104} INFO - [2021-05-03 22:27:07,643] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:27:12,415] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:27:12,752] {logging_mixin.py:104} INFO - [2021-05-03 22:27:12,752] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:27:12,851] {logging_mixin.py:104} INFO - [2021-05-03 22:27:12,850] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:17:12.850779+00:00
+[2021-05-03 22:27:12,901] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 5.473 seconds
+[2021-05-03 22:28:31,276] {scheduler_job.py:182} INFO - Started process (PID=152) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:28:31,292] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:28:31,306] {logging_mixin.py:104} INFO - [2021-05-03 22:28:31,305] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:29:01,902] {logging_mixin.py:104} INFO - [2021-05-03 22:29:01,497] {timeout.py:36} ERROR - Process timed out, PID: 152
+[2021-05-03 22:29:02,246] {logging_mixin.py:104} INFO - [2021-05-03 22:29:02,006] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/NYT_best_sellers_ETL_dag.py", line 4, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/__init__.py", line 52, in <module>
+    from pandas.core.api import (
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/api.py", line 15, in <module>
+    from pandas.core.arrays import Categorical
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/arrays/__init__.py", line 1, in <module>
+    from pandas.core.arrays.base import (
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/arrays/base.py", line 17, in <module>
+    from pandas.compat.numpy import function as nv
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 764, in get_code
+  File "<frozen importlib._bootstrap_external>", line 832, in get_data
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/NYT_best_sellers_ETL_dag.py after 30.0s, PID: 152
+[2021-05-03 22:29:02,556] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:29:09,509] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 38.359 seconds
+[2021-05-03 22:29:17,898] {scheduler_job.py:182} INFO - Started process (PID=160) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:29:17,905] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:29:17,911] {logging_mixin.py:104} INFO - [2021-05-03 22:29:17,911] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:29:30,649] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:29:31,160] {logging_mixin.py:104} INFO - [2021-05-03 22:29:31,120] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:29:31,391] {logging_mixin.py:104} INFO - [2021-05-03 22:29:31,391] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:19:31.390740+00:00
+[2021-05-03 22:29:31,790] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 13.932 seconds
+[2021-05-03 22:30:02,373] {scheduler_job.py:182} INFO - Started process (PID=194) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:30:02,390] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:30:02,408] {logging_mixin.py:104} INFO - [2021-05-03 22:30:02,408] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:30:13,187] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:30:13,780] {logging_mixin.py:104} INFO - [2021-05-03 22:30:13,780] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:30:13,924] {logging_mixin.py:104} INFO - [2021-05-03 22:30:13,924] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:20:13.924415+00:00
+[2021-05-03 22:30:14,288] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 12.044 seconds
+[2021-05-03 22:31:08,242] {scheduler_job.py:182} INFO - Started process (PID=231) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:31:08,264] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:31:08,271] {logging_mixin.py:104} INFO - [2021-05-03 22:31:08,271] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:31:14,011] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:31:14,067] {logging_mixin.py:104} INFO - [2021-05-03 22:31:14,067] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:31:14,105] {logging_mixin.py:104} INFO - [2021-05-03 22:31:14,105] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:21:14.104614+00:00
+[2021-05-03 22:31:14,377] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 6.242 seconds
+[2021-05-03 22:31:44,961] {scheduler_job.py:182} INFO - Started process (PID=265) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:31:44,971] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:31:44,978] {logging_mixin.py:104} INFO - [2021-05-03 22:31:44,976] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:31:45,740] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:31:45,782] {logging_mixin.py:104} INFO - [2021-05-03 22:31:45,782] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:31:45,803] {logging_mixin.py:104} INFO - [2021-05-03 22:31:45,802] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:21:45.802725+00:00
+[2021-05-03 22:31:45,828] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 0.876 seconds
+[2021-05-03 22:32:19,455] {scheduler_job.py:182} INFO - Started process (PID=294) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:32:19,462] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:32:19,465] {logging_mixin.py:104} INFO - [2021-05-03 22:32:19,464] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:32:25,256] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:32:25,482] {logging_mixin.py:104} INFO - [2021-05-03 22:32:25,482] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:32:25,633] {logging_mixin.py:104} INFO - [2021-05-03 22:32:25,633] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:22:25.633261+00:00
+[2021-05-03 22:32:25,744] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 6.304 seconds
+[2021-05-03 22:35:16,990] {scheduler_job.py:182} INFO - Started process (PID=25) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:35:17,006] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:35:17,015] {logging_mixin.py:104} INFO - [2021-05-03 22:35:17,014] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:35:24,303] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:35:24,560] {logging_mixin.py:104} INFO - [2021-05-03 22:35:24,560] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:35:24,794] {logging_mixin.py:104} INFO - [2021-05-03 22:35:24,781] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:25:24.749858+00:00
+[2021-05-03 22:35:24,974] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 8.128 seconds
+[2021-05-03 22:35:57,061] {scheduler_job.py:182} INFO - Started process (PID=58) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:35:57,080] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:35:57,084] {logging_mixin.py:104} INFO - [2021-05-03 22:35:57,083] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:35:59,147] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:35:59,204] {logging_mixin.py:104} INFO - [2021-05-03 22:35:59,204] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:35:59,235] {logging_mixin.py:104} INFO - [2021-05-03 22:35:59,235] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:25:59.235477+00:00
+[2021-05-03 22:35:59,263] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 2.220 seconds
+[2021-05-03 22:36:57,619] {scheduler_job.py:182} INFO - Started process (PID=77) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:36:57,753] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:36:57,874] {logging_mixin.py:104} INFO - [2021-05-03 22:36:57,874] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:37:29,400] {logging_mixin.py:104} INFO - [2021-05-03 22:37:29,400] {timeout.py:36} ERROR - Process timed out, PID: 77
+[2021-05-03 22:37:31,038] {logging_mixin.py:104} INFO - [2021-05-03 22:37:29,667] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/NYT_best_sellers_ETL_dag.py", line 4, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/__init__.py", line 142, in <module>
+    from pandas.io.api import (
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/api.py", line 8, in <module>
+    from pandas.io.excel import ExcelFile, ExcelWriter, read_excel
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/excel/__init__.py", line 1, in <module>
+    from pandas.io.excel._base import ExcelFile, ExcelWriter, read_excel
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/excel/_base.py", line 784, in <module>
+    def _is_ods_stream(stream: Union[BufferedIOBase, RawIOBase]) -> bool:
+  File "/usr/local/lib/python3.6/typing.py", line 679, in inner
+    return cached(*args, **kwds)
+  File "/usr/local/lib/python3.6/typing.py", line 803, in __getitem__
+    return self.__class__(parameters, origin=self, _root=True)
+  File "/usr/local/lib/python3.6/typing.py", line 743, in __new__
+    parameters = _remove_dups_flatten(parameters)
+  File "/usr/local/lib/python3.6/typing.py", line 647, in _remove_dups_flatten
+    for t2 in all_params - {t1}
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/NYT_best_sellers_ETL_dag.py after 30.0s, PID: 77
+[2021-05-03 22:37:32,913] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:37:34,881] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 37.688 seconds
+[2021-05-03 22:38:07,890] {scheduler_job.py:182} INFO - Started process (PID=108) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:38:07,899] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:38:07,904] {logging_mixin.py:104} INFO - [2021-05-03 22:38:07,904] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:38:10,759] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:38:10,817] {logging_mixin.py:104} INFO - [2021-05-03 22:38:10,817] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:38:10,889] {logging_mixin.py:104} INFO - [2021-05-03 22:38:10,888] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:28:10.888686+00:00
+[2021-05-03 22:38:10,961] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 3.174 seconds
+[2021-05-03 22:38:41,866] {scheduler_job.py:182} INFO - Started process (PID=137) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:38:41,877] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:38:41,944] {logging_mixin.py:104} INFO - [2021-05-03 22:38:41,892] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:38:45,169] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:38:45,398] {logging_mixin.py:104} INFO - [2021-05-03 22:38:45,397] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:38:45,574] {logging_mixin.py:104} INFO - [2021-05-03 22:38:45,574] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:28:45.574179+00:00
+[2021-05-03 22:38:46,100] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 4.284 seconds
+[2021-05-03 22:39:16,368] {scheduler_job.py:182} INFO - Started process (PID=165) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:39:16,373] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:39:16,376] {logging_mixin.py:104} INFO - [2021-05-03 22:39:16,376] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:39:17,767] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:39:18,083] {logging_mixin.py:104} INFO - [2021-05-03 22:39:18,083] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:39:18,265] {logging_mixin.py:104} INFO - [2021-05-03 22:39:18,264] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:29:18.264748+00:00
+[2021-05-03 22:39:18,665] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 2.311 seconds
+[2021-05-03 22:39:48,869] {scheduler_job.py:182} INFO - Started process (PID=193) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:39:48,874] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:39:48,886] {logging_mixin.py:104} INFO - [2021-05-03 22:39:48,885] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:39:52,412] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:39:52,647] {logging_mixin.py:104} INFO - [2021-05-03 22:39:52,647] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:39:52,722] {logging_mixin.py:104} INFO - [2021-05-03 22:39:52,721] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:29:52.721652+00:00
+[2021-05-03 22:39:52,760] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 3.905 seconds
+[2021-05-03 22:40:23,550] {scheduler_job.py:182} INFO - Started process (PID=222) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:40:23,575] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:40:23,588] {logging_mixin.py:104} INFO - [2021-05-03 22:40:23,588] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:40:28,568] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:40:28,725] {logging_mixin.py:104} INFO - [2021-05-03 22:40:28,725] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:40:29,092] {logging_mixin.py:104} INFO - [2021-05-03 22:40:29,092] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:30:29.091775+00:00
+[2021-05-03 22:40:29,356] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 5.830 seconds
+[2021-05-03 22:41:00,165] {scheduler_job.py:182} INFO - Started process (PID=252) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:41:00,173] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:41:00,179] {logging_mixin.py:104} INFO - [2021-05-03 22:41:00,179] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:41:04,651] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:41:04,732] {logging_mixin.py:104} INFO - [2021-05-03 22:41:04,732] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:41:04,775] {logging_mixin.py:104} INFO - [2021-05-03 22:41:04,775] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:31:04.774944+00:00
+[2021-05-03 22:41:04,821] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 4.669 seconds
+[2021-05-03 22:41:36,916] {scheduler_job.py:182} INFO - Started process (PID=285) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:41:37,014] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:41:37,109] {logging_mixin.py:104} INFO - [2021-05-03 22:41:37,109] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:41:41,526] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:41:41,744] {logging_mixin.py:104} INFO - [2021-05-03 22:41:41,743] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:41:41,856] {logging_mixin.py:104} INFO - [2021-05-03 22:41:41,855] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:31:41.855414+00:00
+[2021-05-03 22:41:41,914] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 5.082 seconds
+[2021-05-03 22:42:12,361] {scheduler_job.py:182} INFO - Started process (PID=316) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:42:12,383] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:42:12,424] {logging_mixin.py:104} INFO - [2021-05-03 22:42:12,424] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:42:23,453] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:42:23,934] {logging_mixin.py:104} INFO - [2021-05-03 22:42:23,934] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:42:24,391] {logging_mixin.py:104} INFO - [2021-05-03 22:42:24,390] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:32:24.390284+00:00
+[2021-05-03 22:42:25,038] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 12.975 seconds
+[2021-05-03 22:42:56,716] {scheduler_job.py:182} INFO - Started process (PID=348) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:42:56,723] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:42:56,737] {logging_mixin.py:104} INFO - [2021-05-03 22:42:56,737] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:43:00,640] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:43:01,471] {logging_mixin.py:104} INFO - [2021-05-03 22:43:01,471] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:43:02,116] {logging_mixin.py:104} INFO - [2021-05-03 22:43:02,116] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:33:02.115656+00:00
+[2021-05-03 22:43:02,562] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 5.863 seconds
+[2021-05-03 22:43:44,727] {scheduler_job.py:182} INFO - Started process (PID=376) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:43:44,763] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:43:44,793] {logging_mixin.py:104} INFO - [2021-05-03 22:43:44,793] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:43:57,968] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:43:58,226] {logging_mixin.py:104} INFO - [2021-05-03 22:43:58,226] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:43:58,952] {logging_mixin.py:104} INFO - [2021-05-03 22:43:58,949] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:33:58.948470+00:00
+[2021-05-03 22:43:59,229] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 14.569 seconds
+[2021-05-03 22:44:48,572] {scheduler_job.py:182} INFO - Started process (PID=404) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:44:48,615] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:44:48,635] {logging_mixin.py:104} INFO - [2021-05-03 22:44:48,630] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:44:59,920] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:45:01,008] {logging_mixin.py:104} INFO - [2021-05-03 22:45:01,008] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:45:01,441] {logging_mixin.py:104} INFO - [2021-05-03 22:45:01,441] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:35:01.441544+00:00
+[2021-05-03 22:45:01,635] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 13.170 seconds
+[2021-05-03 22:45:32,117] {scheduler_job.py:182} INFO - Started process (PID=436) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:45:32,125] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:45:32,130] {logging_mixin.py:104} INFO - [2021-05-03 22:45:32,129] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:45:32,866] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:45:32,908] {logging_mixin.py:104} INFO - [2021-05-03 22:45:32,908] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:45:32,942] {logging_mixin.py:104} INFO - [2021-05-03 22:45:32,942] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:35:32.942345+00:00
+[2021-05-03 22:45:32,963] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 0.857 seconds
+[2021-05-03 22:46:04,489] {scheduler_job.py:182} INFO - Started process (PID=465) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:46:04,514] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:46:04,520] {logging_mixin.py:104} INFO - [2021-05-03 22:46:04,520] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:46:07,533] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:46:07,577] {logging_mixin.py:104} INFO - [2021-05-03 22:46:07,577] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:46:07,604] {logging_mixin.py:104} INFO - [2021-05-03 22:46:07,604] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:36:07.604119+00:00
+[2021-05-03 22:46:07,631] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 3.185 seconds
+[2021-05-03 22:46:38,305] {scheduler_job.py:182} INFO - Started process (PID=494) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:46:38,312] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:46:38,317] {logging_mixin.py:104} INFO - [2021-05-03 22:46:38,317] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:46:38,930] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:46:38,972] {logging_mixin.py:104} INFO - [2021-05-03 22:46:38,972] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:46:39,017] {logging_mixin.py:104} INFO - [2021-05-03 22:46:39,017] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:36:39.017050+00:00
+[2021-05-03 22:46:39,052] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 0.756 seconds
+[2021-05-03 22:47:09,819] {scheduler_job.py:182} INFO - Started process (PID=522) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:47:09,826] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:47:09,830] {logging_mixin.py:104} INFO - [2021-05-03 22:47:09,829] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:47:10,473] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:47:10,509] {logging_mixin.py:104} INFO - [2021-05-03 22:47:10,509] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:47:10,534] {logging_mixin.py:104} INFO - [2021-05-03 22:47:10,534] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:37:10.534129+00:00
+[2021-05-03 22:47:10,554] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 0.745 seconds
+[2021-05-03 22:47:40,745] {scheduler_job.py:182} INFO - Started process (PID=550) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:47:40,752] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:47:40,758] {logging_mixin.py:104} INFO - [2021-05-03 22:47:40,757] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:47:41,458] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:47:41,499] {logging_mixin.py:104} INFO - [2021-05-03 22:47:41,499] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:47:41,531] {logging_mixin.py:104} INFO - [2021-05-03 22:47:41,531] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:37:41.531465+00:00
+[2021-05-03 22:47:41,568] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 0.853 seconds
+[2021-05-03 22:48:11,962] {scheduler_job.py:182} INFO - Started process (PID=578) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:48:11,974] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:48:11,990] {logging_mixin.py:104} INFO - [2021-05-03 22:48:11,990] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:48:13,238] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:48:13,442] {logging_mixin.py:104} INFO - [2021-05-03 22:48:13,442] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:48:13,505] {logging_mixin.py:104} INFO - [2021-05-03 22:48:13,505] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:38:13.503541+00:00
+[2021-05-03 22:48:13,539] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 1.604 seconds
+[2021-05-03 22:48:44,298] {scheduler_job.py:182} INFO - Started process (PID=608) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:48:44,322] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:48:44,329] {logging_mixin.py:104} INFO - [2021-05-03 22:48:44,328] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:48:45,095] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:48:45,154] {logging_mixin.py:104} INFO - [2021-05-03 22:48:45,153] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:48:45,178] {logging_mixin.py:104} INFO - [2021-05-03 22:48:45,178] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:38:45.178453+00:00
+[2021-05-03 22:48:45,202] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 0.909 seconds
+[2021-05-03 22:49:15,985] {scheduler_job.py:182} INFO - Started process (PID=636) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:49:15,995] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:49:16,008] {logging_mixin.py:104} INFO - [2021-05-03 22:49:16,008] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:49:17,163] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:49:17,200] {logging_mixin.py:104} INFO - [2021-05-03 22:49:17,200] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:49:17,232] {logging_mixin.py:104} INFO - [2021-05-03 22:49:17,232] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:39:17.232027+00:00
+[2021-05-03 22:49:17,257] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 1.288 seconds
+[2021-05-03 22:49:47,944] {scheduler_job.py:182} INFO - Started process (PID=665) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:49:47,950] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:49:47,953] {logging_mixin.py:104} INFO - [2021-05-03 22:49:47,953] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:49:48,833] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:49:48,870] {logging_mixin.py:104} INFO - [2021-05-03 22:49:48,870] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:49:48,896] {logging_mixin.py:104} INFO - [2021-05-03 22:49:48,896] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:39:48.896568+00:00
+[2021-05-03 22:49:48,921] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 0.985 seconds
+[2021-05-03 22:50:19,577] {scheduler_job.py:182} INFO - Started process (PID=695) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:50:19,601] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:50:19,613] {logging_mixin.py:104} INFO - [2021-05-03 22:50:19,613] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:50:21,494] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:50:21,554] {logging_mixin.py:104} INFO - [2021-05-03 22:50:21,553] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:50:21,771] {logging_mixin.py:104} INFO - [2021-05-03 22:50:21,770] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:40:21.770303+00:00
+[2021-05-03 22:50:21,812] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 2.293 seconds
+[2021-05-03 22:51:01,097] {scheduler_job.py:182} INFO - Started process (PID=725) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:51:01,193] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:51:01,334] {logging_mixin.py:104} INFO - [2021-05-03 22:51:01,326] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:51:08,360] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:51:12,844] {logging_mixin.py:104} INFO - [2021-05-03 22:51:12,827] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:51:14,758] {logging_mixin.py:104} INFO - [2021-05-03 22:51:14,757] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:50:21.770303+00:00
+[2021-05-03 22:51:15,817] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 14.885 seconds
+[2021-05-03 22:51:48,304] {scheduler_job.py:182} INFO - Started process (PID=756) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:51:48,310] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:51:48,319] {logging_mixin.py:104} INFO - [2021-05-03 22:51:48,319] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:51:51,275] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:51:51,342] {logging_mixin.py:104} INFO - [2021-05-03 22:51:51,342] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:51:51,416] {logging_mixin.py:104} INFO - [2021-05-03 22:51:51,416] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:50:21.770303+00:00
+[2021-05-03 22:51:51,455] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 3.202 seconds
+[2021-05-03 22:52:23,338] {scheduler_job.py:182} INFO - Started process (PID=785) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:52:23,359] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:52:23,387] {logging_mixin.py:104} INFO - [2021-05-03 22:52:23,386] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:52:28,438] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:52:28,509] {logging_mixin.py:104} INFO - [2021-05-03 22:52:28,508] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:52:28,547] {logging_mixin.py:104} INFO - [2021-05-03 22:52:28,547] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:50:21.770303+00:00
+[2021-05-03 22:52:28,735] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 5.498 seconds
+[2021-05-03 22:52:59,805] {scheduler_job.py:182} INFO - Started process (PID=816) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:52:59,809] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:52:59,811] {logging_mixin.py:104} INFO - [2021-05-03 22:52:59,811] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:53:00,650] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:53:00,687] {logging_mixin.py:104} INFO - [2021-05-03 22:53:00,686] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:53:00,708] {logging_mixin.py:104} INFO - [2021-05-03 22:53:00,708] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:50:21.770303+00:00
+[2021-05-03 22:53:00,727] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 0.931 seconds
+[2021-05-03 22:53:31,401] {scheduler_job.py:182} INFO - Started process (PID=845) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:53:31,421] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:53:31,427] {logging_mixin.py:104} INFO - [2021-05-03 22:53:31,427] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:53:32,593] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:53:32,638] {logging_mixin.py:104} INFO - [2021-05-03 22:53:32,638] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:53:32,666] {logging_mixin.py:104} INFO - [2021-05-03 22:53:32,666] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:50:21.770303+00:00
+[2021-05-03 22:53:32,693] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 1.308 seconds
+[2021-05-03 22:54:04,712] {scheduler_job.py:182} INFO - Started process (PID=869) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:54:04,735] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:54:04,748] {logging_mixin.py:104} INFO - [2021-05-03 22:54:04,746] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:54:12,913] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:54:13,351] {logging_mixin.py:104} INFO - [2021-05-03 22:54:13,351] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:54:13,446] {logging_mixin.py:104} INFO - [2021-05-03 22:54:13,446] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:50:21.770303+00:00
+[2021-05-03 22:54:13,578] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 8.916 seconds
+[2021-05-03 22:54:45,006] {scheduler_job.py:182} INFO - Started process (PID=900) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:54:45,018] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:54:45,022] {logging_mixin.py:104} INFO - [2021-05-03 22:54:45,022] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:54:47,248] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:54:47,472] {logging_mixin.py:104} INFO - [2021-05-03 22:54:47,471] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:54:47,610] {logging_mixin.py:104} INFO - [2021-05-03 22:54:47,610] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:50:21.770303+00:00
+[2021-05-03 22:54:47,727] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 2.730 seconds
+[2021-05-03 22:55:18,480] {scheduler_job.py:182} INFO - Started process (PID=928) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:55:18,486] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:55:18,490] {logging_mixin.py:104} INFO - [2021-05-03 22:55:18,489] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:55:21,521] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:55:21,611] {logging_mixin.py:104} INFO - [2021-05-03 22:55:21,611] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:55:21,659] {logging_mixin.py:104} INFO - [2021-05-03 22:55:21,659] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:50:21.770303+00:00
+[2021-05-03 22:55:21,711] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 3.248 seconds
+[2021-05-03 22:55:52,551] {scheduler_job.py:182} INFO - Started process (PID=960) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:55:52,556] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:55:52,559] {logging_mixin.py:104} INFO - [2021-05-03 22:55:52,559] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:55:55,335] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:55:55,434] {logging_mixin.py:104} INFO - [2021-05-03 22:55:55,434] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:55:55,530] {logging_mixin.py:104} INFO - [2021-05-03 22:55:55,530] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:50:21.770303+00:00
+[2021-05-03 22:55:55,592] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 3.051 seconds
+[2021-05-03 22:56:25,875] {scheduler_job.py:182} INFO - Started process (PID=992) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:56:25,892] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:56:25,898] {logging_mixin.py:104} INFO - [2021-05-03 22:56:25,898] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:56:27,005] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:56:27,078] {logging_mixin.py:104} INFO - [2021-05-03 22:56:27,078] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:56:27,123] {logging_mixin.py:104} INFO - [2021-05-03 22:56:27,123] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:50:21.770303+00:00
+[2021-05-03 22:56:27,164] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 1.310 seconds
+[2021-05-03 22:56:59,042] {scheduler_job.py:182} INFO - Started process (PID=1025) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:56:59,052] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:56:59,073] {logging_mixin.py:104} INFO - [2021-05-03 22:56:59,073] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:56:59,999] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:57:00,049] {logging_mixin.py:104} INFO - [2021-05-03 22:57:00,048] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:57:00,080] {logging_mixin.py:104} INFO - [2021-05-03 22:57:00,079] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:50:21.770303+00:00
+[2021-05-03 22:57:00,103] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 1.097 seconds
+[2021-05-03 22:57:30,773] {scheduler_job.py:182} INFO - Started process (PID=1054) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:57:30,783] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:57:30,787] {logging_mixin.py:104} INFO - [2021-05-03 22:57:30,786] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:57:32,222] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:57:32,270] {logging_mixin.py:104} INFO - [2021-05-03 22:57:32,270] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:57:32,300] {logging_mixin.py:104} INFO - [2021-05-03 22:57:32,300] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:50:21.770303+00:00
+[2021-05-03 22:57:32,331] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 1.574 seconds
+[2021-05-03 22:58:02,768] {scheduler_job.py:182} INFO - Started process (PID=1082) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:58:02,776] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:58:02,809] {logging_mixin.py:104} INFO - [2021-05-03 22:58:02,805] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:58:03,701] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:58:03,741] {logging_mixin.py:104} INFO - [2021-05-03 22:58:03,741] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:58:03,763] {logging_mixin.py:104} INFO - [2021-05-03 22:58:03,763] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:50:21.770303+00:00
+[2021-05-03 22:58:03,787] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 1.053 seconds
+[2021-05-03 22:58:34,379] {scheduler_job.py:182} INFO - Started process (PID=1110) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:58:34,385] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:58:34,389] {logging_mixin.py:104} INFO - [2021-05-03 22:58:34,389] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:58:35,157] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:58:35,199] {logging_mixin.py:104} INFO - [2021-05-03 22:58:35,199] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:58:35,222] {logging_mixin.py:104} INFO - [2021-05-03 22:58:35,221] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:50:21.770303+00:00
+[2021-05-03 22:58:35,300] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 0.930 seconds
+[2021-05-03 22:59:05,502] {scheduler_job.py:182} INFO - Started process (PID=1138) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:59:05,519] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:59:05,529] {logging_mixin.py:104} INFO - [2021-05-03 22:59:05,528] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:59:06,848] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:59:06,884] {logging_mixin.py:104} INFO - [2021-05-03 22:59:06,884] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:59:06,908] {logging_mixin.py:104} INFO - [2021-05-03 22:59:06,908] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:50:21.770303+00:00
+[2021-05-03 22:59:06,932] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 1.460 seconds
+[2021-05-03 22:59:37,417] {scheduler_job.py:182} INFO - Started process (PID=1166) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:59:37,424] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 22:59:37,428] {logging_mixin.py:104} INFO - [2021-05-03 22:59:37,428] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:59:39,636] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 22:59:39,679] {logging_mixin.py:104} INFO - [2021-05-03 22:59:39,679] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 22:59:39,700] {logging_mixin.py:104} INFO - [2021-05-03 22:59:39,700] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:50:21.770303+00:00
+[2021-05-03 22:59:39,717] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 2.305 seconds
+[2021-05-03 23:00:10,426] {scheduler_job.py:182} INFO - Started process (PID=1196) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:00:10,444] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:00:10,457] {logging_mixin.py:104} INFO - [2021-05-03 23:00:10,457] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:00:12,929] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:00:12,982] {logging_mixin.py:104} INFO - [2021-05-03 23:00:12,982] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:00:13,006] {logging_mixin.py:104} INFO - [2021-05-03 23:00:13,006] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:50:21.770303+00:00
+[2021-05-03 23:00:13,032] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 2.670 seconds
+[2021-05-03 23:00:43,222] {scheduler_job.py:182} INFO - Started process (PID=1224) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:00:43,228] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:00:43,231] {logging_mixin.py:104} INFO - [2021-05-03 23:00:43,231] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:00:43,827] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:00:43,865] {logging_mixin.py:104} INFO - [2021-05-03 23:00:43,864] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:00:43,890] {logging_mixin.py:104} INFO - [2021-05-03 23:00:43,889] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:50:43.889845+00:00
+[2021-05-03 23:00:43,915] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 0.699 seconds
+[2021-05-03 23:01:14,920] {scheduler_job.py:182} INFO - Started process (PID=1252) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:01:14,922] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:01:14,925] {logging_mixin.py:104} INFO - [2021-05-03 23:01:14,925] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:01:15,847] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:01:15,896] {logging_mixin.py:104} INFO - [2021-05-03 23:01:15,896] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:01:15,929] {logging_mixin.py:104} INFO - [2021-05-03 23:01:15,929] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:51:15.929206+00:00
+[2021-05-03 23:01:15,957] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 1.045 seconds
+[2021-05-03 23:01:46,138] {scheduler_job.py:182} INFO - Started process (PID=1280) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:01:46,144] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:01:46,150] {logging_mixin.py:104} INFO - [2021-05-03 23:01:46,147] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:01:49,548] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:01:49,675] {logging_mixin.py:104} INFO - [2021-05-03 23:01:49,675] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:01:49,833] {logging_mixin.py:104} INFO - [2021-05-03 23:01:49,833] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:51:49.833120+00:00
+[2021-05-03 23:01:49,862] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 3.733 seconds
+[2021-05-03 23:02:20,086] {scheduler_job.py:182} INFO - Started process (PID=1311) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:02:20,110] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:02:20,125] {logging_mixin.py:104} INFO - [2021-05-03 23:02:20,120] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:02:23,199] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:02:23,579] {logging_mixin.py:104} INFO - [2021-05-03 23:02:23,579] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:02:23,652] {logging_mixin.py:104} INFO - [2021-05-03 23:02:23,652] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:52:23.652249+00:00
+[2021-05-03 23:02:23,698] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 3.624 seconds
+[2021-05-03 23:02:54,177] {scheduler_job.py:182} INFO - Started process (PID=1341) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:02:54,189] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:02:54,194] {logging_mixin.py:104} INFO - [2021-05-03 23:02:54,194] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:02:56,718] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:02:56,794] {logging_mixin.py:104} INFO - [2021-05-03 23:02:56,793] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:02:56,825] {logging_mixin.py:104} INFO - [2021-05-03 23:02:56,824] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:52:56.824671+00:00
+[2021-05-03 23:02:56,844] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 2.701 seconds
+[2021-05-03 23:03:27,089] {scheduler_job.py:182} INFO - Started process (PID=1372) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:03:27,124] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:03:27,144] {logging_mixin.py:104} INFO - [2021-05-03 23:03:27,144] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:03:29,431] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:03:29,700] {logging_mixin.py:104} INFO - [2021-05-03 23:03:29,698] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:03:29,800] {logging_mixin.py:104} INFO - [2021-05-03 23:03:29,800] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:53:29.800123+00:00
+[2021-05-03 23:03:29,827] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 2.806 seconds
+[2021-05-03 23:04:00,316] {scheduler_job.py:182} INFO - Started process (PID=1401) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:04:00,345] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:04:00,355] {logging_mixin.py:104} INFO - [2021-05-03 23:04:00,355] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:04:01,717] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:04:01,753] {logging_mixin.py:104} INFO - [2021-05-03 23:04:01,753] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:04:01,780] {logging_mixin.py:104} INFO - [2021-05-03 23:04:01,780] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:54:01.779884+00:00
+[2021-05-03 23:04:01,900] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 1.669 seconds
+[2021-05-03 23:04:32,529] {scheduler_job.py:182} INFO - Started process (PID=1429) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:04:32,537] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:04:32,541] {logging_mixin.py:104} INFO - [2021-05-03 23:04:32,540] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:04:33,344] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:04:33,482] {logging_mixin.py:104} INFO - [2021-05-03 23:04:33,481] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:04:33,528] {logging_mixin.py:104} INFO - [2021-05-03 23:04:33,527] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:54:33.527786+00:00
+[2021-05-03 23:04:33,584] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 1.067 seconds
+[2021-05-03 23:05:03,794] {scheduler_job.py:182} INFO - Started process (PID=1457) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:05:03,798] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:05:03,802] {logging_mixin.py:104} INFO - [2021-05-03 23:05:03,801] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:05:05,092] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:05:05,237] {logging_mixin.py:104} INFO - [2021-05-03 23:05:05,235] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:05:05,401] {logging_mixin.py:104} INFO - [2021-05-03 23:05:05,401] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:55:05.401343+00:00
+[2021-05-03 23:05:05,630] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 1.844 seconds
+[2021-05-03 23:05:36,516] {scheduler_job.py:182} INFO - Started process (PID=1486) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:05:36,520] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:05:36,523] {logging_mixin.py:104} INFO - [2021-05-03 23:05:36,523] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:05:39,341] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:05:39,429] {logging_mixin.py:104} INFO - [2021-05-03 23:05:39,429] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:05:39,503] {logging_mixin.py:104} INFO - [2021-05-03 23:05:39,502] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:55:39.502474+00:00
+[2021-05-03 23:05:39,571] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 3.063 seconds
+[2021-05-03 23:06:09,743] {scheduler_job.py:182} INFO - Started process (PID=1517) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:06:09,750] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:06:09,756] {logging_mixin.py:104} INFO - [2021-05-03 23:06:09,755] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:06:10,641] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:06:10,846] {logging_mixin.py:104} INFO - [2021-05-03 23:06:10,846] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:06:10,899] {logging_mixin.py:104} INFO - [2021-05-03 23:06:10,899] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:56:10.898829+00:00
+[2021-05-03 23:06:10,983] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 1.267 seconds
+[2021-05-03 23:06:41,296] {scheduler_job.py:182} INFO - Started process (PID=1546) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:06:41,308] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:06:41,313] {logging_mixin.py:104} INFO - [2021-05-03 23:06:41,313] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:06:42,187] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:06:42,227] {logging_mixin.py:104} INFO - [2021-05-03 23:06:42,227] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:06:42,256] {logging_mixin.py:104} INFO - [2021-05-03 23:06:42,256] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:56:42.256414+00:00
+[2021-05-03 23:06:42,299] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 1.013 seconds
+[2021-05-03 23:07:14,600] {scheduler_job.py:182} INFO - Started process (PID=1574) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:07:14,621] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:07:14,635] {logging_mixin.py:104} INFO - [2021-05-03 23:07:14,635] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:07:17,553] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:07:17,609] {logging_mixin.py:104} INFO - [2021-05-03 23:07:17,609] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:07:17,634] {logging_mixin.py:104} INFO - [2021-05-03 23:07:17,634] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:57:17.634515+00:00
+[2021-05-03 23:07:17,672] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 3.088 seconds
+[2021-05-03 23:07:52,121] {scheduler_job.py:182} INFO - Started process (PID=1593) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:07:52,129] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:07:52,146] {logging_mixin.py:104} INFO - [2021-05-03 23:07:52,146] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:07:58,819] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:07:58,880] {logging_mixin.py:104} INFO - [2021-05-03 23:07:58,879] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:07:58,932] {logging_mixin.py:104} INFO - [2021-05-03 23:07:58,930] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:57:58.930578+00:00
+[2021-05-03 23:07:58,970] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 6.917 seconds
+[2021-05-03 23:08:29,527] {scheduler_job.py:182} INFO - Started process (PID=1622) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:08:29,538] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:08:29,542] {logging_mixin.py:104} INFO - [2021-05-03 23:08:29,541] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:08:31,289] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:08:31,352] {logging_mixin.py:104} INFO - [2021-05-03 23:08:31,351] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:08:31,394] {logging_mixin.py:104} INFO - [2021-05-03 23:08:31,394] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:58:31.394393+00:00
+[2021-05-03 23:08:31,430] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 1.920 seconds
+[2021-05-03 23:09:01,534] {scheduler_job.py:182} INFO - Started process (PID=1651) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:09:01,540] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:09:01,543] {logging_mixin.py:104} INFO - [2021-05-03 23:09:01,542] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:09:02,631] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:09:02,670] {logging_mixin.py:104} INFO - [2021-05-03 23:09:02,669] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:09:02,701] {logging_mixin.py:104} INFO - [2021-05-03 23:09:02,701] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:59:02.700922+00:00
+[2021-05-03 23:09:02,725] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 1.202 seconds
+[2021-05-03 23:09:33,054] {scheduler_job.py:182} INFO - Started process (PID=1682) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:09:33,068] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:09:33,075] {logging_mixin.py:104} INFO - [2021-05-03 23:09:33,075] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:09:34,384] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:09:34,425] {logging_mixin.py:104} INFO - [2021-05-03 23:09:34,425] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:09:34,456] {logging_mixin.py:104} INFO - [2021-05-03 23:09:34,456] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 22:59:34.456098+00:00
+[2021-05-03 23:09:34,491] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 1.466 seconds
+[2021-05-03 23:10:05,173] {scheduler_job.py:182} INFO - Started process (PID=1714) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:10:05,181] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:10:05,186] {logging_mixin.py:104} INFO - [2021-05-03 23:10:05,186] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:10:06,210] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:10:06,247] {logging_mixin.py:104} INFO - [2021-05-03 23:10:06,247] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:10:06,267] {logging_mixin.py:104} INFO - [2021-05-03 23:10:06,267] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:00:06.267623+00:00
+[2021-05-03 23:10:06,287] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 1.134 seconds
+[2021-05-03 23:10:36,689] {scheduler_job.py:182} INFO - Started process (PID=1742) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:10:36,729] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:10:36,751] {logging_mixin.py:104} INFO - [2021-05-03 23:10:36,751] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:10:38,899] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:10:38,953] {logging_mixin.py:104} INFO - [2021-05-03 23:10:38,952] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:10:39,006] {logging_mixin.py:104} INFO - [2021-05-03 23:10:39,005] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:00:39.005859+00:00
+[2021-05-03 23:10:39,036] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 2.374 seconds
+[2021-05-03 23:11:09,229] {scheduler_job.py:182} INFO - Started process (PID=1773) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:11:09,239] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:11:09,245] {logging_mixin.py:104} INFO - [2021-05-03 23:11:09,244] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:11:11,024] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:11:11,076] {logging_mixin.py:104} INFO - [2021-05-03 23:11:11,076] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:11:11,115] {logging_mixin.py:104} INFO - [2021-05-03 23:11:11,115] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:01:11.115087+00:00
+[2021-05-03 23:11:11,138] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 1.954 seconds
+[2021-05-03 23:11:42,530] {scheduler_job.py:182} INFO - Started process (PID=1801) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:11:42,542] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:11:42,552] {logging_mixin.py:104} INFO - [2021-05-03 23:11:42,551] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:11:45,253] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:11:45,316] {logging_mixin.py:104} INFO - [2021-05-03 23:11:45,316] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:11:45,357] {logging_mixin.py:104} INFO - [2021-05-03 23:11:45,357] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:01:45.356917+00:00
+[2021-05-03 23:11:45,407] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 2.891 seconds
+[2021-05-03 23:12:17,488] {scheduler_job.py:182} INFO - Started process (PID=1834) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:12:17,499] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:12:17,543] {logging_mixin.py:104} INFO - [2021-05-03 23:12:17,543] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:12:19,118] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:12:19,199] {logging_mixin.py:104} INFO - [2021-05-03 23:12:19,199] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:12:19,283] {logging_mixin.py:104} INFO - [2021-05-03 23:12:19,282] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:02:19.282853+00:00
+[2021-05-03 23:12:19,330] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 1.977 seconds
+[2021-05-03 23:12:49,632] {scheduler_job.py:182} INFO - Started process (PID=1864) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:12:49,637] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:12:49,640] {logging_mixin.py:104} INFO - [2021-05-03 23:12:49,640] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:12:50,390] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:12:50,443] {logging_mixin.py:104} INFO - [2021-05-03 23:12:50,443] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:12:50,465] {logging_mixin.py:104} INFO - [2021-05-03 23:12:50,464] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:02:50.464644+00:00
+[2021-05-03 23:12:50,486] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 0.866 seconds
+[2021-05-03 23:13:21,528] {scheduler_job.py:182} INFO - Started process (PID=1892) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:13:21,535] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:13:21,538] {logging_mixin.py:104} INFO - [2021-05-03 23:13:21,538] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:13:22,933] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:13:22,967] {logging_mixin.py:104} INFO - [2021-05-03 23:13:22,967] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:13:22,992] {logging_mixin.py:104} INFO - [2021-05-03 23:13:22,992] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:03:22.992080+00:00
+[2021-05-03 23:13:23,008] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 1.489 seconds
+[2021-05-03 23:13:53,575] {scheduler_job.py:182} INFO - Started process (PID=1921) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:13:53,600] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:13:53,620] {logging_mixin.py:104} INFO - [2021-05-03 23:13:53,619] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:13:55,391] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:13:55,492] {logging_mixin.py:104} INFO - [2021-05-03 23:13:55,491] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:13:55,537] {logging_mixin.py:104} INFO - [2021-05-03 23:13:55,537] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:03:55.537320+00:00
+[2021-05-03 23:13:55,565] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 2.100 seconds
+[2021-05-03 23:14:26,150] {scheduler_job.py:182} INFO - Started process (PID=1951) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:14:26,155] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:14:26,160] {logging_mixin.py:104} INFO - [2021-05-03 23:14:26,159] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:14:28,065] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:14:28,157] {logging_mixin.py:104} INFO - [2021-05-03 23:14:28,157] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:14:28,212] {logging_mixin.py:104} INFO - [2021-05-03 23:14:28,211] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:04:28.211428+00:00
+[2021-05-03 23:14:28,248] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 2.109 seconds
+[2021-05-03 23:14:58,660] {scheduler_job.py:182} INFO - Started process (PID=1979) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:14:58,667] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:14:58,670] {logging_mixin.py:104} INFO - [2021-05-03 23:14:58,670] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:15:00,329] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:15:00,365] {logging_mixin.py:104} INFO - [2021-05-03 23:15:00,365] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:15:00,396] {logging_mixin.py:104} INFO - [2021-05-03 23:15:00,396] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:05:00.396081+00:00
+[2021-05-03 23:15:00,421] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 1.770 seconds
+[2021-05-03 23:15:30,799] {scheduler_job.py:182} INFO - Started process (PID=2007) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:15:30,810] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:15:30,817] {logging_mixin.py:104} INFO - [2021-05-03 23:15:30,815] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:15:32,379] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:15:32,465] {logging_mixin.py:104} INFO - [2021-05-03 23:15:32,465] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:15:32,735] {logging_mixin.py:104} INFO - [2021-05-03 23:15:32,733] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:05:32.732598+00:00
+[2021-05-03 23:15:32,860] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 2.069 seconds
+[2021-05-03 23:41:12,237] {scheduler_job.py:182} INFO - Started process (PID=37) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:41:12,259] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:41:12,278] {logging_mixin.py:104} INFO - [2021-05-03 23:41:12,278] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:41:14,996] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:41:15,360] {logging_mixin.py:104} INFO - [2021-05-03 23:41:15,360] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:41:15,521] {logging_mixin.py:104} INFO - [2021-05-03 23:41:15,521] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:31:15.521445+00:00
+[2021-05-03 23:41:15,673] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 3.505 seconds
+[2021-05-03 23:41:46,377] {scheduler_job.py:182} INFO - Started process (PID=70) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:41:46,410] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:41:46,440] {logging_mixin.py:104} INFO - [2021-05-03 23:41:46,439] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:41:54,298] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:41:54,454] {logging_mixin.py:104} INFO - [2021-05-03 23:41:54,454] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:41:54,558] {logging_mixin.py:104} INFO - [2021-05-03 23:41:54,557] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:31:54.557760+00:00
+[2021-05-03 23:41:54,700] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 8.420 seconds
+[2021-05-03 23:42:26,351] {scheduler_job.py:182} INFO - Started process (PID=101) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:42:26,371] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:42:26,377] {logging_mixin.py:104} INFO - [2021-05-03 23:42:26,377] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:42:38,397] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:42:38,454] {logging_mixin.py:104} INFO - [2021-05-03 23:42:38,454] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:42:38,519] {logging_mixin.py:104} INFO - [2021-05-03 23:42:38,518] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:32:38.518481+00:00
+[2021-05-03 23:42:38,561] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 12.334 seconds
+[2021-05-03 23:43:08,970] {scheduler_job.py:182} INFO - Started process (PID=131) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:43:08,992] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:43:09,006] {logging_mixin.py:104} INFO - [2021-05-03 23:43:09,004] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:43:13,070] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:43:13,208] {logging_mixin.py:104} INFO - [2021-05-03 23:43:13,208] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:43:13,266] {logging_mixin.py:104} INFO - [2021-05-03 23:43:13,265] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:33:13.265748+00:00
+[2021-05-03 23:43:13,314] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 4.457 seconds
+[2021-05-03 23:44:51,600] {scheduler_job.py:182} INFO - Started process (PID=36) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:44:51,690] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:44:51,715] {logging_mixin.py:104} INFO - [2021-05-03 23:44:51,714] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:44:57,872] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:44:58,015] {logging_mixin.py:104} INFO - [2021-05-03 23:44:58,015] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:44:58,096] {logging_mixin.py:104} INFO - [2021-05-03 23:44:58,096] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:34:58.096241+00:00
+[2021-05-03 23:44:58,177] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 6.899 seconds
+[2021-05-03 23:45:28,937] {scheduler_job.py:182} INFO - Started process (PID=69) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:45:28,968] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:45:28,991] {logging_mixin.py:104} INFO - [2021-05-03 23:45:28,991] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:45:34,756] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:45:35,546] {logging_mixin.py:104} INFO - [2021-05-03 23:45:35,542] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:45:35,664] {logging_mixin.py:104} INFO - [2021-05-03 23:45:35,664] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:35:35.664687+00:00
+[2021-05-03 23:45:36,100] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 7.207 seconds
+[2021-05-03 23:46:06,716] {scheduler_job.py:182} INFO - Started process (PID=101) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:46:06,753] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:46:06,756] {logging_mixin.py:104} INFO - [2021-05-03 23:46:06,756] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:46:10,005] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:46:10,079] {logging_mixin.py:104} INFO - [2021-05-03 23:46:10,079] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:46:10,147] {logging_mixin.py:104} INFO - [2021-05-03 23:46:10,147] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:36:10.147041+00:00
+[2021-05-03 23:46:10,210] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 3.514 seconds
+[2021-05-03 23:46:40,404] {scheduler_job.py:182} INFO - Started process (PID=132) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:46:40,420] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:46:40,428] {logging_mixin.py:104} INFO - [2021-05-03 23:46:40,427] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:46:45,504] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:46:45,691] {logging_mixin.py:104} INFO - [2021-05-03 23:46:45,673] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:46:45,797] {logging_mixin.py:104} INFO - [2021-05-03 23:46:45,797] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:36:45.796644+00:00
+[2021-05-03 23:46:45,860] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 5.505 seconds
+[2021-05-03 23:47:16,290] {scheduler_job.py:182} INFO - Started process (PID=162) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:47:16,312] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:47:16,333] {logging_mixin.py:104} INFO - [2021-05-03 23:47:16,330] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:47:18,457] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:47:19,455] {logging_mixin.py:104} INFO - [2021-05-03 23:47:19,455] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:47:19,814] {logging_mixin.py:104} INFO - [2021-05-03 23:47:19,806] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:37:19.801924+00:00
+[2021-05-03 23:47:20,148] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 3.903 seconds
+[2021-05-03 23:47:50,679] {scheduler_job.py:182} INFO - Started process (PID=191) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:47:50,780] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:47:50,797] {logging_mixin.py:104} INFO - [2021-05-03 23:47:50,795] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:47:59,802] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:47:59,892] {logging_mixin.py:104} INFO - [2021-05-03 23:47:59,892] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:48:00,511] {logging_mixin.py:104} INFO - [2021-05-03 23:48:00,510] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:38:00.510631+00:00
+[2021-05-03 23:48:00,795] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 10.170 seconds
+[2021-05-03 23:48:35,602] {scheduler_job.py:182} INFO - Started process (PID=219) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:48:35,624] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:48:35,631] {logging_mixin.py:104} INFO - [2021-05-03 23:48:35,630] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:48:47,344] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:48:47,561] {logging_mixin.py:104} INFO - [2021-05-03 23:48:47,561] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:48:47,775] {logging_mixin.py:104} INFO - [2021-05-03 23:48:47,775] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:38:47.775045+00:00
+[2021-05-03 23:48:47,864] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 12.323 seconds
+[2021-05-03 23:49:18,666] {scheduler_job.py:182} INFO - Started process (PID=252) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:49:18,706] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:49:18,712] {logging_mixin.py:104} INFO - [2021-05-03 23:49:18,712] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:49:21,899] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:49:21,965] {logging_mixin.py:104} INFO - [2021-05-03 23:49:21,965] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:49:22,035] {logging_mixin.py:104} INFO - [2021-05-03 23:49:22,034] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:39:22.032084+00:00
+[2021-05-03 23:49:22,084] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 3.501 seconds
+[2021-05-03 23:49:52,530] {scheduler_job.py:182} INFO - Started process (PID=282) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:49:52,537] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:49:52,541] {logging_mixin.py:104} INFO - [2021-05-03 23:49:52,540] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:49:56,882] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:49:57,010] {logging_mixin.py:104} INFO - [2021-05-03 23:49:57,010] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:49:57,159] {logging_mixin.py:104} INFO - [2021-05-03 23:49:57,158] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:39:57.158505+00:00
+[2021-05-03 23:49:57,198] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 4.694 seconds
+[2021-05-03 23:50:27,501] {scheduler_job.py:182} INFO - Started process (PID=311) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:50:27,510] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:50:27,520] {logging_mixin.py:104} INFO - [2021-05-03 23:50:27,520] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:50:30,788] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:50:30,853] {logging_mixin.py:104} INFO - [2021-05-03 23:50:30,853] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:50:30,905] {logging_mixin.py:104} INFO - [2021-05-03 23:50:30,904] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:40:30.904763+00:00
+[2021-05-03 23:50:30,926] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 3.449 seconds
+[2021-05-03 23:51:01,970] {scheduler_job.py:182} INFO - Started process (PID=342) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:51:01,997] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:51:02,003] {logging_mixin.py:104} INFO - [2021-05-03 23:51:02,003] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:51:04,609] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:51:04,657] {logging_mixin.py:104} INFO - [2021-05-03 23:51:04,657] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:51:04,693] {logging_mixin.py:104} INFO - [2021-05-03 23:51:04,692] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:41:04.692605+00:00
+[2021-05-03 23:51:04,728] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 2.819 seconds
+[2021-05-03 23:51:35,107] {scheduler_job.py:182} INFO - Started process (PID=373) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:51:35,127] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:51:35,133] {logging_mixin.py:104} INFO - [2021-05-03 23:51:35,133] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:51:37,186] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:51:37,406] {logging_mixin.py:104} INFO - [2021-05-03 23:51:37,406] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:51:37,473] {logging_mixin.py:104} INFO - [2021-05-03 23:51:37,472] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:41:37.472647+00:00
+[2021-05-03 23:51:37,632] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 2.554 seconds
+[2021-05-03 23:52:08,249] {scheduler_job.py:182} INFO - Started process (PID=404) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:52:08,265] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:52:08,285] {logging_mixin.py:104} INFO - [2021-05-03 23:52:08,285] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:52:11,883] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:52:12,053] {logging_mixin.py:104} INFO - [2021-05-03 23:52:12,053] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:52:12,180] {logging_mixin.py:104} INFO - [2021-05-03 23:52:12,180] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:42:12.180212+00:00
+[2021-05-03 23:52:12,271] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 4.097 seconds
+[2021-05-03 23:52:42,886] {scheduler_job.py:182} INFO - Started process (PID=434) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:52:42,894] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:52:42,898] {logging_mixin.py:104} INFO - [2021-05-03 23:52:42,897] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:52:44,382] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:52:44,423] {logging_mixin.py:104} INFO - [2021-05-03 23:52:44,423] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:52:44,443] {logging_mixin.py:104} INFO - [2021-05-03 23:52:44,443] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:42:44.443464+00:00
+[2021-05-03 23:52:44,460] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 1.609 seconds
+[2021-05-03 23:53:14,769] {scheduler_job.py:182} INFO - Started process (PID=465) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:53:14,774] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:53:14,778] {logging_mixin.py:104} INFO - [2021-05-03 23:53:14,778] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:53:15,635] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:53:15,773] {logging_mixin.py:104} INFO - [2021-05-03 23:53:15,773] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:53:15,809] {logging_mixin.py:104} INFO - [2021-05-03 23:53:15,809] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:43:15.809115+00:00
+[2021-05-03 23:53:15,842] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 1.080 seconds
+[2021-05-03 23:53:46,838] {scheduler_job.py:182} INFO - Started process (PID=493) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:53:46,847] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:53:46,850] {logging_mixin.py:104} INFO - [2021-05-03 23:53:46,850] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:53:47,667] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:53:47,711] {logging_mixin.py:104} INFO - [2021-05-03 23:53:47,711] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:53:47,748] {logging_mixin.py:104} INFO - [2021-05-03 23:53:47,748] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:43:47.748441+00:00
+[2021-05-03 23:53:47,901] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 1.077 seconds
+[2021-05-03 23:54:19,478] {scheduler_job.py:182} INFO - Started process (PID=521) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:54:19,488] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:54:19,499] {logging_mixin.py:104} INFO - [2021-05-03 23:54:19,499] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:54:23,439] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:54:23,534] {logging_mixin.py:104} INFO - [2021-05-03 23:54:23,534] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:54:23,591] {logging_mixin.py:104} INFO - [2021-05-03 23:54:23,591] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:44:23.591154+00:00
+[2021-05-03 23:54:23,630] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 4.168 seconds
+[2021-05-03 23:54:53,804] {scheduler_job.py:182} INFO - Started process (PID=552) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:54:53,810] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:54:53,822] {logging_mixin.py:104} INFO - [2021-05-03 23:54:53,815] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:54:58,345] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:54:58,536] {logging_mixin.py:104} INFO - [2021-05-03 23:54:58,536] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:54:58,664] {logging_mixin.py:104} INFO - [2021-05-03 23:54:58,664] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:44:58.664082+00:00
+[2021-05-03 23:54:59,087] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 5.302 seconds
+[2021-05-03 23:55:29,759] {scheduler_job.py:182} INFO - Started process (PID=582) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:55:29,765] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:55:29,771] {logging_mixin.py:104} INFO - [2021-05-03 23:55:29,771] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:55:31,701] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:55:31,763] {logging_mixin.py:104} INFO - [2021-05-03 23:55:31,762] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:55:31,799] {logging_mixin.py:104} INFO - [2021-05-03 23:55:31,799] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:45:31.799091+00:00
+[2021-05-03 23:55:31,960] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 2.205 seconds
+[2021-05-03 23:56:02,343] {scheduler_job.py:182} INFO - Started process (PID=613) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:56:02,353] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:56:02,358] {logging_mixin.py:104} INFO - [2021-05-03 23:56:02,358] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:56:04,031] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:56:04,160] {logging_mixin.py:104} INFO - [2021-05-03 23:56:04,160] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:56:04,210] {logging_mixin.py:104} INFO - [2021-05-03 23:56:04,210] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:46:04.209907+00:00
+[2021-05-03 23:56:04,236] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 1.913 seconds
+[2021-05-03 23:56:35,168] {scheduler_job.py:182} INFO - Started process (PID=643) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:56:35,183] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:56:35,194] {logging_mixin.py:104} INFO - [2021-05-03 23:56:35,193] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:56:39,941] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:56:39,992] {logging_mixin.py:104} INFO - [2021-05-03 23:56:39,992] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:56:40,034] {logging_mixin.py:104} INFO - [2021-05-03 23:56:40,034] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:46:40.034020+00:00
+[2021-05-03 23:56:40,071] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 4.927 seconds
+[2021-05-03 23:57:11,482] {scheduler_job.py:182} INFO - Started process (PID=674) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:57:11,492] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:57:11,508] {logging_mixin.py:104} INFO - [2021-05-03 23:57:11,508] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:57:12,927] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:57:12,979] {logging_mixin.py:104} INFO - [2021-05-03 23:57:12,979] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:57:13,006] {logging_mixin.py:104} INFO - [2021-05-03 23:57:13,006] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:47:13.006403+00:00
+[2021-05-03 23:57:13,037] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 1.565 seconds
+[2021-05-03 23:57:43,280] {scheduler_job.py:182} INFO - Started process (PID=702) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:57:43,299] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:57:43,305] {logging_mixin.py:104} INFO - [2021-05-03 23:57:43,304] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:57:47,218] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:57:47,557] {logging_mixin.py:104} INFO - [2021-05-03 23:57:47,556] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:57:47,641] {logging_mixin.py:104} INFO - [2021-05-03 23:57:47,641] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:47:47.641392+00:00
+[2021-05-03 23:57:47,720] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 4.454 seconds
+[2021-05-03 23:58:23,166] {scheduler_job.py:182} INFO - Started process (PID=731) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:58:23,171] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:58:23,180] {logging_mixin.py:104} INFO - [2021-05-03 23:58:23,179] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:58:32,816] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:58:32,878] {logging_mixin.py:104} INFO - [2021-05-03 23:58:32,878] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:58:32,973] {logging_mixin.py:104} INFO - [2021-05-03 23:58:32,973] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:48:32.973158+00:00
+[2021-05-03 23:58:33,070] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 9.937 seconds
+[2021-05-03 23:59:10,504] {scheduler_job.py:182} INFO - Started process (PID=764) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:59:10,511] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:59:10,514] {logging_mixin.py:104} INFO - [2021-05-03 23:59:10,513] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:59:13,018] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:59:13,072] {logging_mixin.py:104} INFO - [2021-05-03 23:59:13,072] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:59:13,107] {logging_mixin.py:104} INFO - [2021-05-03 23:59:13,106] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:49:13.106620+00:00
+[2021-05-03 23:59:13,135] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 2.647 seconds
+[2021-05-03 23:59:43,822] {scheduler_job.py:182} INFO - Started process (PID=791) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:59:43,835] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-03 23:59:43,843] {logging_mixin.py:104} INFO - [2021-05-03 23:59:43,842] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:59:49,824] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-03 23:59:49,919] {logging_mixin.py:104} INFO - [2021-05-03 23:59:49,918] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-03 23:59:49,965] {logging_mixin.py:104} INFO - [2021-05-03 23:59:49,965] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-03 23:49:49.964823+00:00
+[2021-05-03 23:59:50,001] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 6.191 seconds

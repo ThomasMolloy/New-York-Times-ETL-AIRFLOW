@@ -1,0 +1,49 @@
+[2021-05-04 00:06:30,255] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: nyt_bestsellers_ETL.transform_nyt_best_sellers 2021-05-03T22:40:21.770303+00:00 [queued]>
+[2021-05-04 00:06:30,514] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: nyt_bestsellers_ETL.transform_nyt_best_sellers 2021-05-03T22:40:21.770303+00:00 [queued]>
+[2021-05-04 00:06:30,517] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-04 00:06:30,521] {taskinstance.py:1069} INFO - Starting attempt 1 of 4
+[2021-05-04 00:06:30,529] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-04 00:06:30,563] {taskinstance.py:1089} INFO - Executing <Task(_PythonDecoratedOperator): transform_nyt_best_sellers> on 2021-05-03T22:40:21.770303+00:00
+[2021-05-04 00:06:30,580] {standard_task_runner.py:52} INFO - Started process 44 to run task
+[2021-05-04 00:06:30,602] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'nyt_bestsellers_ETL', 'transform_nyt_best_sellers', '2021-05-03T22:40:21.770303+00:00', '--job-id', '7', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/NYT_best_sellers_ETL_dag.py', '--cfg-path', '/tmp/tmp0skawgjq', '--error-file', '/tmp/tmpdecfoais']
+[2021-05-04 00:06:30,606] {standard_task_runner.py:77} INFO - Job 7: Subtask transform_nyt_best_sellers
+[2021-05-04 00:06:30,792] {logging_mixin.py:104} INFO - Running <TaskInstance: nyt_bestsellers_ETL.transform_nyt_best_sellers 2021-05-03T22:40:21.770303+00:00 [running]> on host 131c21e8cb61
+[2021-05-04 00:06:31,052] {taskinstance.py:1283} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=thomasmolloyorm@gmail.com
+AIRFLOW_CTX_DAG_OWNER=Thomas
+AIRFLOW_CTX_DAG_ID=nyt_bestsellers_ETL
+AIRFLOW_CTX_TASK_ID=transform_nyt_best_sellers
+AIRFLOW_CTX_EXECUTION_DATE=2021-05-03T22:40:21.770303+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-05-03T22:40:21.770303+00:00
+[2021-05-04 00:06:31,264] {xcom.py:238} ERROR - Could not serialize the XCom value into JSON. If you are using pickles instead of JSON for XCom, then you need to enable pickle support for XCom in your airflow config.
+[2021-05-04 00:06:31,268] {taskinstance.py:1482} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1138, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1344, in _execute_task
+    self.xcom_push(key=XCOM_RETURN_KEY, value=result)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1928, in xcom_push
+    session=session,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 67, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/xcom.py", line 88, in set
+    value = XCom.serialize_value(value)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/xcom.py", line 235, in serialize_value
+    return json.dumps(value).encode('UTF-8')
+  File "/usr/local/lib/python3.6/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/local/lib/python3.6/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.6/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.6/json/encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'DataFrame' is not JSON serializable
+[2021-05-04 00:06:31,382] {taskinstance.py:1532} INFO - Marking task as UP_FOR_RETRY. dag_id=nyt_bestsellers_ETL, task_id=transform_nyt_best_sellers, execution_date=20210503T224021, start_date=20210504T000630, end_date=20210504T000631
+[2021-05-04 00:06:31,640] {local_task_job.py:146} INFO - Task exited with return code 1
