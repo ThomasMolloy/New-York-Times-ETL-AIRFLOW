@@ -1,7 +1,7 @@
 INIT_FILE=.airflowinitialized
 if [ ! -f "$INIT_FILE" ]; then
     # Create all Airflow configuration files
-    airflow initdb
+    airflow db init
     rm /root/airflow/airflow.db
 # Secure the storage of connections' passwords
     #python fernet.py
@@ -13,7 +13,7 @@ if [ ! -f "$INIT_FILE" ]; then
     apt remove -y netcat
 # Setup the DB
     python mysqlconnect.py
-    airflow initdb
+    airflow db init
 # This configuration is done only the first time
     touch "$INIT_FILE"
 fi
