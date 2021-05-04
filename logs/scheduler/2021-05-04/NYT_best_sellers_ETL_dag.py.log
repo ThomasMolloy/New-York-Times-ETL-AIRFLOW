@@ -2099,3 +2099,17 @@ BrokenPipeError: [Errno 32] Broken pipe
 [2021-05-04 19:47:41,254] {logging_mixin.py:104} INFO - [2021-05-04 19:47:41,254] {dag.py:1824} INFO - Sync 1 DAGs
 [2021-05-04 19:47:41,309] {logging_mixin.py:104} INFO - [2021-05-04 19:47:41,309] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-05 19:23:32.206172+00:00
 [2021-05-04 19:47:41,418] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 1.908 seconds
+[2021-05-04 19:48:11,698] {scheduler_job.py:182} INFO - Started process (PID=94) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-04 19:48:11,706] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-04 19:48:11,710] {logging_mixin.py:104} INFO - [2021-05-04 19:48:11,710] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-04 19:48:12,478] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-04 19:48:12,552] {logging_mixin.py:104} INFO - [2021-05-04 19:48:12,552] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:48:12,583] {logging_mixin.py:104} INFO - [2021-05-04 19:48:12,583] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-05 19:23:32.206172+00:00
+[2021-05-04 19:48:12,630] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 0.944 seconds
+[2021-05-04 19:48:42,893] {scheduler_job.py:182} INFO - Started process (PID=96) to work on /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-04 19:48:42,899] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/NYT_best_sellers_ETL_dag.py for tasks to queue
+[2021-05-04 19:48:42,905] {logging_mixin.py:104} INFO - [2021-05-04 19:48:42,904] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-04 19:48:43,560] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['nyt_bestsellers_ETL']) retrieved from /opt/airflow/dags/NYT_best_sellers_ETL_dag.py
+[2021-05-04 19:48:43,615] {logging_mixin.py:104} INFO - [2021-05-04 19:48:43,614] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-04 19:48:43,641] {logging_mixin.py:104} INFO - [2021-05-04 19:48:43,641] {dag.py:2280} INFO - Setting next_dagrun for nyt_bestsellers_ETL to 2021-05-05 19:23:32.206172+00:00
+[2021-05-04 19:48:43,675] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/NYT_best_sellers_ETL_dag.py took 0.794 seconds

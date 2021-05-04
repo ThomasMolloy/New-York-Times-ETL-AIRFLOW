@@ -20071,3 +20071,45 @@ File Path                                        PID    Runtime      # DAGs    #
 [2021-05-04 19:47:33,421] {dag_processing.py:1096} INFO - Failing jobs without heartbeat after 2021-05-04 19:42:33.421646+00:00
 [2021-05-04 19:47:43,515] {dag_processing.py:1092} INFO - Finding 'running' jobs without a recent heartbeat
 [2021-05-04 19:47:43,522] {dag_processing.py:1096} INFO - Failing jobs without heartbeat after 2021-05-04 19:42:43.522023+00:00
+[2021-05-04 19:47:53,567] {dag_processing.py:1092} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-05-04 19:47:53,574] {dag_processing.py:1096} INFO - Failing jobs without heartbeat after 2021-05-04 19:42:53.574198+00:00
+[2021-05-04 19:47:56,559] {dag_processing.py:859} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/NYT_best_sellers_ETL_dag.py                             1           0  2.04s           2021-05-04T19:47:41
+/opt/airflow/dags/NYT_best_sellers_email_dag.py                           1           0  0.43s           2021-05-04T19:47:35
+================================================================================
+[2021-05-04 19:48:03,591] {dag_processing.py:1092} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-05-04 19:48:03,597] {dag_processing.py:1096} INFO - Failing jobs without heartbeat after 2021-05-04 19:43:03.597218+00:00
+[2021-05-04 19:48:13,670] {dag_processing.py:1092} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-05-04 19:48:13,674] {dag_processing.py:1096} INFO - Failing jobs without heartbeat after 2021-05-04 19:43:13.674377+00:00
+[2021-05-04 19:48:24,691] {dag_processing.py:1092} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-05-04 19:48:24,697] {dag_processing.py:1096} INFO - Failing jobs without heartbeat after 2021-05-04 19:43:24.696521+00:00
+[2021-05-04 19:48:26,734] {dag_processing.py:859} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/NYT_best_sellers_ETL_dag.py                             1           0  1.02s           2021-05-04T19:48:12
+/opt/airflow/dags/NYT_best_sellers_email_dag.py                           1           0  0.20s           2021-05-04T19:48:06
+================================================================================
+[2021-05-04 19:48:34,770] {dag_processing.py:1092} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-05-04 19:48:34,775] {dag_processing.py:1096} INFO - Failing jobs without heartbeat after 2021-05-04 19:43:34.775607+00:00
+[2021-05-04 19:48:45,041] {dag_processing.py:1092} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-05-04 19:48:45,046] {dag_processing.py:1096} INFO - Failing jobs without heartbeat after 2021-05-04 19:43:45.045886+00:00
+[2021-05-04 19:48:55,060] {dag_processing.py:1092} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-05-04 19:48:55,065] {dag_processing.py:1096} INFO - Failing jobs without heartbeat after 2021-05-04 19:43:55.065356+00:00
+[2021-05-04 19:48:56,727] {dag_processing.py:859} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/NYT_best_sellers_ETL_dag.py                             1           0  0.85s           2021-05-04T19:48:43
+/opt/airflow/dags/NYT_best_sellers_email_dag.py                           1           0  0.21s           2021-05-04T19:48:38
+================================================================================
+[2021-05-04 19:48:56,782] {dag_processing.py:582} INFO - Exiting gracefully upon receiving signal 15

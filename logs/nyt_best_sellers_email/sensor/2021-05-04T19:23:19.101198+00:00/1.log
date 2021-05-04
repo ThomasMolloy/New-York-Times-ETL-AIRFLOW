@@ -32,3 +32,22 @@ AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-05-04T19:23:19.101198+00:00
 [2021-05-04 19:45:26,305] {external_task.py:154} INFO - Poking for nyt_bestsellers_ETL.load_nyt_best_sellers on 2021-05-04T19:23:19.101198+00:00 ... 
 [2021-05-04 19:46:26,367] {external_task.py:154} INFO - Poking for nyt_bestsellers_ETL.load_nyt_best_sellers on 2021-05-04T19:23:19.101198+00:00 ... 
 [2021-05-04 19:47:26,371] {external_task.py:154} INFO - Poking for nyt_bestsellers_ETL.load_nyt_best_sellers on 2021-05-04T19:23:19.101198+00:00 ... 
+[2021-05-04 19:48:26,400] {external_task.py:154} INFO - Poking for nyt_bestsellers_ETL.load_nyt_best_sellers on 2021-05-04T19:23:19.101198+00:00 ... 
+[2021-05-04 19:48:55,883] {local_task_job.py:77} ERROR - Received SIGTERM. Terminating subprocesses
+[2021-05-04 19:48:55,920] {process_utils.py:100} INFO - Sending Signals.SIGTERM to GPID 44
+[2021-05-04 19:48:55,981] {taskinstance.py:1265} ERROR - Received SIGTERM. Terminating subprocesses.
+[2021-05-04 19:48:57,040] {taskinstance.py:1482} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1138, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/sensors/base.py", line 243, in execute
+    time.sleep(self._get_next_poke_interval(started_at, run_duration, try_number))
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1267, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2021-05-04 19:48:57,898] {taskinstance.py:1532} INFO - Marking task as UP_FOR_RETRY. dag_id=nyt_best_sellers_email, task_id=sensor, execution_date=20210504T192319, start_date=20210504T193325, end_date=20210504T194857
+[2021-05-04 19:48:58,858] {process_utils.py:66} INFO - Process psutil.Process(pid=44, status='terminated', exitcode=1, started='19:33:25') (44) terminated with exit code 1
