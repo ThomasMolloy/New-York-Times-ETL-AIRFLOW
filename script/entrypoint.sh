@@ -9,7 +9,6 @@ TRY_LOOP="20"
 
 # Global defaults and back-compat
 : "${AIRFLOW_HOME:="/usr/local/airflow"}"
-: "${AIRFLOW__CORE__FERNET_KEY:=${FERNET_KEY:=$(python -c "from cryptography.fernet import Fernet; FERNET_KEY = Fernet.generate_key().decode(); print(FERNET_KEY)")}}"
 : "${AIRFLOW__CORE__EXECUTOR:=${EXECUTOR:-Sequential}Executor}"
 
 # Load DAGs examples (default: Yes)
@@ -113,6 +112,9 @@ case "$1" in
     if [ "$AIRFLOW__CORE__EXECUTOR" = "LocalExecutor" ] || [ "$AIRFLOW__CORE__EXECUTOR" = "SequentialExecutor" ]; then
       # With the "Local" and "Sequential" executors it should all run in one container.
       airflow scheduler &
+    fi
+    if [ -e "/variables.json" ]; then
+      airflow variables --import /variables.json
     fi
     exec airflow webserver
     ;;

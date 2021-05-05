@@ -1,0 +1,22 @@
+[2021-05-04 22:08:51,966] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: nyt_bestsellers_ETL.extract_nyt_best_sellers 2021-05-04T22:03:49.985184+00:00 [queued]>
+[2021-05-04 22:08:52,032] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: nyt_bestsellers_ETL.extract_nyt_best_sellers 2021-05-04T22:03:49.985184+00:00 [queued]>
+[2021-05-04 22:08:52,034] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-04 22:08:52,037] {taskinstance.py:1069} INFO - Starting attempt 1 of 4
+[2021-05-04 22:08:52,044] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-04 22:08:52,077] {taskinstance.py:1089} INFO - Executing <Task(_PythonDecoratedOperator): extract_nyt_best_sellers> on 2021-05-04T22:03:49.985184+00:00
+[2021-05-04 22:08:52,093] {standard_task_runner.py:52} INFO - Started process 54 to run task
+[2021-05-04 22:08:52,114] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'nyt_bestsellers_ETL', 'extract_nyt_best_sellers', '2021-05-04T22:03:49.985184+00:00', '--job-id', '48', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/NYT_best_sellers_ETL_dag.py', '--cfg-path', '/tmp/tmpumv1ku4s', '--error-file', '/tmp/tmpg6dmzr9v']
+[2021-05-04 22:08:52,118] {standard_task_runner.py:77} INFO - Job 48: Subtask extract_nyt_best_sellers
+[2021-05-04 22:08:52,237] {logging_mixin.py:104} INFO - Running <TaskInstance: nyt_bestsellers_ETL.extract_nyt_best_sellers 2021-05-04T22:03:49.985184+00:00 [running]> on host 7ea6c36b275b
+[2021-05-04 22:08:52,356] {taskinstance.py:1283} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=thomasmolloyorm@gmail.com
+AIRFLOW_CTX_DAG_OWNER=Thomas
+AIRFLOW_CTX_DAG_ID=nyt_bestsellers_ETL
+AIRFLOW_CTX_TASK_ID=extract_nyt_best_sellers
+AIRFLOW_CTX_EXECUTION_DATE=2021-05-04T22:03:49.985184+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-05-04T22:03:49.985184+00:00
+[2021-05-04 22:08:54,097] {taskinstance.py:1192} INFO - Marking task as SUCCESS. dag_id=nyt_bestsellers_ETL, task_id=extract_nyt_best_sellers, execution_date=20210504T220349, start_date=20210504T220851, end_date=20210504T220854
+[2021-05-04 22:08:54,203] {taskinstance.py:1246} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-05-04 22:08:54,249] {local_task_job.py:146} INFO - Task exited with return code 0

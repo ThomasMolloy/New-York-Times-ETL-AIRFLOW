@@ -51,10 +51,18 @@ x-airflow-common:
     AIRFLOW__CORE__LOAD_EXAMPLES: 'False'
     AIRFLOW__API__AUTH_BACKEND: 'airflow.api.auth.backend.basic_auth'
     AIRFLOW__CORE__ENABLE_XCOM_PICKLING: 'True'
+    AIRFLOW__SMTP__SMTP_HOST: 'smtp.gmail.com'
+    AIRFLOW__SMTP__SMTP_STARTTLS: 'True'
+    AIRFLOW__SMTP__SMTP_SSL: 'False'
+    AIRFLOW__SMTP__SMTP_USER: 'thomasmolloyorm@gmail.com'
+    AIRFLOW__SMTP__SMTP_PASSWORD: 'jovmzopjjsszjeby'
+    AIRFLOW__SMTP__SMTP_PORT: '587'
+    AIRFLOW__SMTP__SMTP_MAIL_FROM: 'thomasmolloyorm@gmail.com'
   volumes:
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
     - ./plugins:/opt/airflow/plugins
+    - ./variables.json:/variables.json
   user: "${AIRFLOW_UID:-50000}:${AIRFLOW_GID:-50000}"
   depends_on:
     redis:
@@ -134,3 +142,4 @@ services:
 
 volumes:
   postgres-db-volume:
+  

@@ -1,0 +1,36 @@
+[2021-05-05 00:07:17,770] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: nyt_bestsellers_ETL.extract_nyt_best_sellers 2021-05-05T00:01:59.141435+00:00 [queued]>
+[2021-05-05 00:07:17,842] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: nyt_bestsellers_ETL.extract_nyt_best_sellers 2021-05-05T00:01:59.141435+00:00 [queued]>
+[2021-05-05 00:07:17,846] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-05 00:07:17,849] {taskinstance.py:1069} INFO - Starting attempt 1 of 4
+[2021-05-05 00:07:17,851] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-05 00:07:17,873] {taskinstance.py:1089} INFO - Executing <Task(_PythonDecoratedOperator): extract_nyt_best_sellers> on 2021-05-05T00:01:59.141435+00:00
+[2021-05-05 00:07:17,884] {standard_task_runner.py:52} INFO - Started process 44 to run task
+[2021-05-05 00:07:17,898] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'nyt_bestsellers_ETL', 'extract_nyt_best_sellers', '2021-05-05T00:01:59.141435+00:00', '--job-id', '3', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/NYT_best_sellers_ETL_dag.py', '--cfg-path', '/tmp/tmpnjk62bo8', '--error-file', '/tmp/tmp392w1mqf']
+[2021-05-05 00:07:17,900] {standard_task_runner.py:77} INFO - Job 3: Subtask extract_nyt_best_sellers
+[2021-05-05 00:07:17,992] {logging_mixin.py:104} INFO - Running <TaskInstance: nyt_bestsellers_ETL.extract_nyt_best_sellers 2021-05-05T00:01:59.141435+00:00 [running]> on host 88c81fd8bf0e
+[2021-05-05 00:07:18,069] {taskinstance.py:1283} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=thomasmolloyorm@gmail.com
+AIRFLOW_CTX_DAG_OWNER=Thomas
+AIRFLOW_CTX_DAG_ID=nyt_bestsellers_ETL
+AIRFLOW_CTX_TASK_ID=extract_nyt_best_sellers
+AIRFLOW_CTX_EXECUTION_DATE=2021-05-05T00:01:59.141435+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-05-05T00:01:59.141435+00:00
+[2021-05-05 00:07:18,093] {taskinstance.py:1482} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1138, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 233, in execute
+    return_value = self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/NYT_best_sellers_ETL_dag.py", line 46, in extract_nyt_best_sellers
+    date = Variable.get('next_update_date')
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/variable.py", line 128, in get
+    raise KeyError(f'Variable {key} does not exist')
+KeyError: 'Variable next_update_date does not exist'
+[2021-05-05 00:07:18,113] {taskinstance.py:1532} INFO - Marking task as UP_FOR_RETRY. dag_id=nyt_bestsellers_ETL, task_id=extract_nyt_best_sellers, execution_date=20210505T000159, start_date=20210505T000717, end_date=20210505T000718
+[2021-05-05 00:07:18,190] {local_task_job.py:146} INFO - Task exited with return code 1
