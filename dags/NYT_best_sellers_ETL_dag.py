@@ -22,7 +22,7 @@ default_args = {
 
 @dag(
     default_args=default_args, 
-    schedule_interval=timedelta(minutes=5), 
+    schedule_interval=timedelta(days=1), 
     start_date=days_ago(0),
     catchup=False,
     tags=['ETL'])

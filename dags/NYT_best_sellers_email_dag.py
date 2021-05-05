@@ -20,7 +20,7 @@ default_args = {
 with DAG( 
     dag_id='nyt_best_sellers_email',
     description='Send email to email list when NYT best sellers is updated',
-    schedule_interval=timedelta(minutes=5),
+    schedule_interval=timedelta(days=1),
     start_date=days_ago(0),
     default_args = default_args,
     catchup=False,
